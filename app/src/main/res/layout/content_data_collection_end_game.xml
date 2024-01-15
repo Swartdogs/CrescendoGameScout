@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A5A5A5"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".data_collection_end_game"
+    tools:showIn="@layout/activity_data_collection_end_game">
+
+    <View
+        android:id="@+id/divider24"
+        android:layout_width="590dp"
+        android:layout_height="13dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#100E0E"
+        android:foreground="@android:drawable/dialog_holo_dark_frame"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.623"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.148" />
+
+    <View
+        android:id="@+id/divider23"
+        android:layout_width="590dp"
+        android:layout_height="13dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#100E0E"
+        android:foreground="@android:drawable/dialog_holo_dark_frame"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.623"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bolt_regular"
+        android:text="End Game"
+        android:textColor="#000"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/To_Submission_B"
+        android:layout_width="539dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginEnd="130dp"
+        android:fontFamily="@font/bolt_regular"
+        android:text="To Submission"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.942" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bolt_regular"
+        android:text="Charge Station:"
+        android:textColor="#000"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.184" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="222dp"
+        android:layout_height="318dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.309">
+
+        <RadioButton
+            android:id="@+id/endgame_Docked_RB"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:text="Docked"
+            android:textSize="40sp" />
+
+        <RadioButton
+            android:id="@+id/endgame_Engaged_RB"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:text="Engaged"
+            android:textSize="40sp" />
+
+        <RadioButton
+            android:id="@+id/endgame_Parked_RB"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:text="Parked"
+            android:textSize="40sp" />
+
+        <RadioButton
+            android:id="@+id/endgame_None_RB"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:text="None"
+            android:textSize="40sp" />
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/endgame_Attempted_CB"
+        android:layout_width="329dp"
+        android:layout_height="126dp"
+        android:text="Attempted the Charge Station"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551" />
+
+    <View
+        android:id="@+id/divider22"
+        android:layout_width="425dp"
+        android:layout_height="589dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.311" />
+
+</android.support.constraint.ConstraintLayout>
