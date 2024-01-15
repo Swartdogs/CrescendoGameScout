@@ -16,7 +16,7 @@
         android:layout_marginBottom="2dp"
         android:fontFamily="@font/bolt_regular"
         android:gravity="center"
-        android:text="Welcome to 525 Rapid React Scouting"
+        android:text="Welcome to 525 Crescendo Scouting"
         android:textColor="#FFFFFF"
         android:textSize="50sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
