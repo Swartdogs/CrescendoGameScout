@@ -87,7 +87,7 @@ public class data_collection_TeleOP extends AppCompatActivity {
 
 
         //Below defines the button and commands for saving data and switching pages
-        Button To_EndGame = (Button) findViewById(R.id.To_Endgame_B);
+        Button To_EndGame = (Button) findViewById(R.id.nextPageTele);
         To_EndGame.setOnClickListener(new View.OnClickListener()
         { //Makes onclick listener for button
            @Override
