@@ -17,7 +17,7 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
@@ -26,11 +26,11 @@
 
         <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
             android:id="@+id/Tele_Top_Cube_Miss_EB"
-            android:layout_width="203dp"
+            android:layout_width="200dp"
             android:layout_height="65dp"
             app:backGroundColor="#ff6e00"
+            app:layout_constraintStart_toStartOf="parent"
             app:textSize="50sp"
-            tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="144dp"
             tools:textColor="@color/cardview_dark_background">
 
@@ -41,8 +41,8 @@
             android:layout_width="250dp"
             android:layout_height="75dp"
             app:backGroundColor="#ff6e00"
+            app:layout_constraintStart_toStartOf="parent"
             app:textSize="50sp"
-            tools:layout_editor_absoluteX="27dp"
             tools:layout_editor_absoluteY="293dp"
             tools:textColor="@color/cardview_dark_background">
 
@@ -53,8 +53,8 @@
             android:layout_width="193dp"
             android:layout_height="69dp"
             app:backGroundColor="#ff6e00"
+            app:layout_constraintEnd_toEndOf="parent"
             app:textSize="50sp"
-            tools:layout_editor_absoluteX="573dp"
             tools:layout_editor_absoluteY="293dp"
             tools:textColor="@color/cardview_dark_background">
 
@@ -65,8 +65,8 @@
             android:layout_width="193dp"
             android:layout_height="65dp"
             app:backGroundColor="#ff6e00"
+            app:layout_constraintStart_toStartOf="parent"
             app:textSize="50sp"
-            tools:layout_editor_absoluteX="27dp"
             tools:layout_editor_absoluteY="443dp"
             tools:textColor="@color/cardview_dark_background">
 
@@ -226,47 +226,12 @@
             android:layout_width="193dp"
             android:layout_height="69dp"
             app:backGroundColor="#ff6e00"
+            app:layout_constraintEnd_toEndOf="parent"
             app:textSize="50sp"
-            tools:layout_editor_absoluteX="343dp"
             tools:layout_editor_absoluteY="439dp"
             tools:textColor="@color/cardview_dark_background">
 
         </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
-
-        <View
-            android:id="@+id/divider"
-            android:layout_width="798dp"
-            android:layout_height="100dp"
-            android:layout_marginStart="1dp"
-            android:layout_marginTop="125dp"
-            android:layout_marginEnd="1dp"
-            android:background="?android:attr/listDivider"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <View
-            android:id="@+id/divider"
-            android:layout_width="798dp"
-            android:layout_height="100dp"
-            android:layout_marginStart="1dp"
-            android:layout_marginTop="275dp"
-            android:layout_marginEnd="1dp"
-            android:background="?android:attr/listDivider"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <View
-            android:id="@+id/divider"
-            android:layout_width="798dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="425dp"
-            android:background="?android:attr/listDivider"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:layout_editor_absoluteX="2dp" />
 
 
         <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
@@ -274,30 +239,20 @@
             android:layout_width="205dp"
             android:layout_height="62dp"
             app:backGroundColor="#ff6e00"
+            app:layout_constraintEnd_toEndOf="parent"
             app:textSize="50sp"
-            tools:layout_editor_absoluteX="517dp"
             tools:layout_editor_absoluteY="605dp"
             tools:textColor="@color/cardview_dark_background">
 
         </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
-
-        <View
-            android:id="@+id/divider"
-            android:layout_width="800dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="575dp"
-            android:background="?android:attr/listDivider"
-            android:fadingEdge="none"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:layout_editor_absoluteX="0dp" />
 
         <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
             android:id="@+id/Tele_Mid_Cube_Score_EB"
             android:layout_width="193dp"
             android:layout_height="69dp"
             app:backGroundColor="#ff6e00"
+            app:layout_constraintEnd_toEndOf="parent"
             app:textSize="50sp"
-            tools:layout_editor_absoluteX="605dp"
             tools:layout_editor_absoluteY="149dp"
             tools:textColor="@color/cardview_dark_background" />
 
@@ -306,8 +261,8 @@
             android:layout_width="193dp"
             android:layout_height="69dp"
             app:backGroundColor="#ff6e00"
+            app:layout_constraintStart_toStartOf="parent"
             app:textSize="50sp"
-            tools:layout_editor_absoluteX="26dp"
             tools:layout_editor_absoluteY="584dp"
             tools:textColor="@color/cardview_dark_background">
 
