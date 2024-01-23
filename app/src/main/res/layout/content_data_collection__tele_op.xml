@@ -31,28 +31,13 @@
             app:backGroundColor="#ff6e00"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.851"
+            app:layout_constraintHorizontal_bias="0.868"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.42"
             app:textSize="34sp"
             tools:textColor="@color/cardview_dark_background">
 
         </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
-
-        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
-            android:id="@+id/Tele_Top_Cone_Score_EB"
-            android:layout_width="215dp"
-            android:layout_height="85dp"
-            app:backGroundColor="#ff6e00"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.133"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.082"
-            app:textSize="34sp"
-            tools:textColor="@color/cardview_dark_background" />
 
         <Button
             android:id="@+id/toSubmission"
@@ -244,10 +229,10 @@
             app:backGroundColor="#ff6e00"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.868"
+            app:layout_constraintHorizontal_bias="0.641"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.224"
+            app:layout_constraintVertical_bias="0.417"
             app:textSize="34sp"
             tools:textColor="@color/cardview_dark_background" />
 
@@ -258,26 +243,10 @@
             app:backGroundColor="#ff6e00"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.133"
+            app:layout_constraintHorizontal_bias="0.458"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.224"
-            app:textSize="34sp"
-            tools:textColor="@color/cardview_dark_background">
-
-        </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
-
-        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
-            android:id="@+id/Tele_Top_Cube_Score_EB"
-            android:layout_width="215dp"
-            android:layout_height="85dp"
-            app:backGroundColor="#ff6e00"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.868"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.082"
+            app:layout_constraintVertical_bias="0.37"
             app:textSize="34sp"
             tools:textColor="@color/cardview_dark_background">
 
@@ -375,58 +344,75 @@
             app:layout_constraintGuide_begin="723dp" />
 
         <LinearLayout
-            android:layout_width="99dp"
-            android:layout_height="81dp"
-            android:orientation="horizontal"
-            tools:layout_editor_absoluteX="295dp"
-            tools:layout_editor_absoluteY="100dp"></LinearLayout>
-
-        <LinearLayout
-            android:layout_width="99dp"
-            android:layout_height="83dp"
-            android:orientation="horizontal"
-            tools:layout_editor_absoluteX="295dp"
-            tools:layout_editor_absoluteY="269dp"></LinearLayout>
-
-        <LinearLayout
-            android:layout_width="99dp"
-            android:layout_height="83dp"
-            android:orientation="horizontal"
-            tools:layout_editor_absoluteX="295dp"
-            tools:layout_editor_absoluteY="439dp"></LinearLayout>
-
-        <LinearLayout
-            android:layout_width="646dp"
-            android:layout_height="85dp"
+            android:layout_width="645dp"
+            android:layout_height="84dp"
             android:orientation="horizontal"
             tools:layout_editor_absoluteX="78dp"
-            tools:layout_editor_absoluteY="597dp">
+            tools:layout_editor_absoluteY="98dp">
 
-            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
-                android:id="@+id/Tele_Mid_Cone_Score_EB"
-                android:layout_width="215dp"
-                android:layout_height="85dp"
-                app:backGroundColor="#ff6e00"
-                app:textSize="34sp"
-                tools:textColor="@color/cardview_dark_background">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="78dp"
+                tools:layout_editor_absoluteY="98dp">
 
-            </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="78dp"
+                    tools:layout_editor_absoluteY="98dp">
 
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                        android:id="@+id/Tele_Top_Cone_Score_EB"
+                        android:layout_width="215dp"
+                        android:layout_height="85dp"
+                        app:backGroundColor="#ff6e00"
+                        app:textSize="34sp"
+                        tools:textColor="@color/cardview_dark_background" />
 
-            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
-                android:id="@+id/Tele_Mid_Cone_Miss_EB"
-                android:layout_width="215dp"
-                android:layout_height="85dp"
-                app:backGroundColor="#ff6e00"
-                app:textSize="34sp"
-                tools:textColor="@color/cardview_dark_background">
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
 
-            </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+                    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                        android:id="@+id/Tele_Top_Cube_Score_EB"
+                        android:layout_width="215dp"
+                        android:layout_height="85dp"
+                        app:backGroundColor="#ff6e00"
+                        app:textSize="34sp"
+                        tools:textColor="@color/cardview_dark_background">
+
+                    </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+                </LinearLayout>
+            </LinearLayout>
         </LinearLayout>
+
+        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+            android:id="@+id/Tele_Mid_Cone_Score_EB"
+            android:layout_width="215dp"
+            android:layout_height="85dp"
+            app:backGroundColor="#ff6e00"
+            app:textSize="34sp"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="598dp"
+            tools:textColor="@color/cardview_dark_background">
+
+        </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+            android:id="@+id/Tele_Mid_Cone_Miss_EB"
+            android:layout_width="215dp"
+            android:layout_height="85dp"
+            app:backGroundColor="#ff6e00"
+            app:textSize="34sp"
+            tools:layout_editor_absoluteX="546dp"
+            tools:layout_editor_absoluteY="386dp"
+            tools:textColor="@color/cardview_dark_background">
+
+        </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
 
     </android.support.constraint.ConstraintLayout>
 
