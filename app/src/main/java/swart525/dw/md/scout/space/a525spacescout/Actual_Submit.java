@@ -49,19 +49,28 @@ public class Actual_Submit extends AppCompatActivity {
             data_Collection_sandstorm.AutoBottomCubeScore + "," +
             data_Collection_sandstorm.AutoBottomCubeMiss + "," +
 
-            data_collection_TeleOP.TeleAmpScore + "," +
-            data_collection_TeleOP.TeleAmpMiss + "," +
-            data_collection_TeleOP.TeleSpeakerScore + "," +
-            data_collection_TeleOP.TeleSpeakerMiss + "," +
-            data_collection_TeleOP.Hung + "," +
-            data_collection_TeleOP.AttemptedHang + "," +
-            data_collection_TeleOP.Parked + "," +
-            data_collection_TeleOP.Solo + "," +
-            data_collection_TeleOP.Harmony + "," +
-            data_collection_TeleOP.ScoredTrap + "," +
-            data_collection_TeleOP.AttemptedTrap + "," +
+
             data_collection_TeleOP.Fouls + "," +
             data_collection_TeleOP.Defense + "," +
+            data_collection_TeleOP.TeleTopConeScore + "," +
+            data_collection_TeleOP.TeleTopConeMiss + "," +
+            data_collection_TeleOP.TeleTopCubeScore + "," +
+            data_collection_TeleOP.TeleTopCubeMiss + "," +
+            data_collection_TeleOP.TeleMidConeScore + "," +
+            data_collection_TeleOP.TeleMidConeMiss + "," +
+            data_collection_TeleOP.TeleMidCubeScore + "," +
+            data_collection_TeleOP.TeleMidCubeMiss + "," +
+            data_collection_TeleOP.TeleBottomConeScore + "," +
+            data_collection_TeleOP.TeleBottomConeMiss + "," +
+            data_collection_TeleOP.TeleBottomCubeScore + "," +
+            data_collection_TeleOP.TeleBottomCubeMiss + "," +
+            data_collection_TeleOP.TeleFieldDropCone + "," +
+            data_collection_TeleOP.TeleFieldDropCube + "," +
+            data_collection_end_game.Parked + "," +
+            data_collection_end_game.Docked + "," +
+            data_collection_end_game.Engaged + "," +
+            data_collection_end_game.None + "," +
+            data_collection_end_game.Attempted + "," +
             data_collection_TeleOP.RobotTip + "," +
             data_collection_TeleOP.RobotStall + "," +
 
