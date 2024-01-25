@@ -22,23 +22,11 @@ public class Start_Page extends AppCompatActivity {
 
                 Data_Collection_Page_1.NoShow = "False";
 
-                data_Collection_sandstorm.AutoAttemptedPickUp = "False";
-                data_Collection_sandstorm.AutoAttemptedPickUpScored = "False";
-                data_Collection_sandstorm.AutoAttemptedPickUpHeld = "False";
-                data_Collection_sandstorm.Mobility = "False";
-                data_Collection_sandstorm.CSNoAttempt = "False";
-                data_Collection_sandstorm.AutoTopConeScore = "0";
-                data_Collection_sandstorm.AutoTopConeMiss = "0";
-                data_Collection_sandstorm.AutoTopCubeScore = "0";
-                data_Collection_sandstorm.AutoTopCubeMiss = "0";
-                data_Collection_sandstorm.AutoMidConeScore = "0";
-                data_Collection_sandstorm.AutoMidConeMiss = "0";
-                data_Collection_sandstorm.AutoMidCubeScore = "0";
-                data_Collection_sandstorm.AutoMidCubeMiss = "0";
-                data_Collection_sandstorm.AutoBottomConeScore = "0";
-                data_Collection_sandstorm.AutoBottomConeMiss = "0";
-                data_Collection_sandstorm.AutoBottomCubeScore = "0";
-                data_Collection_sandstorm.AutoBottomCubeMiss = "0";
+                data_Collection_sandstorm.AutoStopButtonPressed = "False";
+                data_Collection_sandstorm.AutoAmpAttempt = "0";
+                data_Collection_sandstorm.AutoAmpScore = "0";
+                data_Collection_sandstorm.AutoSpeakerAttempt = "0";
+                data_Collection_sandstorm.AutoSpeakerScore = "0";
 
                 data_collection_TeleOP.RobotTip = "False";
                 data_collection_TeleOP.RobotStall = "False";
