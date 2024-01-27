@@ -37,6 +37,7 @@ public class Actual_Submit extends AppCompatActivity {
             data_collection_end_game.Attempted + "," +
             data_collection_TeleOP.RobotTip + "," +
             data_collection_TeleOP.RobotStall + "," +
+            data_collection_TeleOP.Fouls + "," +
 
             Save_Page.comment + "," +
             Data_Collection_Page_1.Initials + "," +
