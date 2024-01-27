@@ -27,13 +27,13 @@
         android:id="@+id/Auto_Amp_Attempted_EB"
         android:layout_width="193dp"
         android:layout_height="90dp"
-        app:backGroundColor="#F34336"
+        app:backGroundColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintHorizontal_bias="0.125"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.295"
+        app:layout_constraintVertical_bias="0.288"
         app:textSize="50dp">
 
     </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
@@ -47,6 +47,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/divider109"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/divider111"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.511" />
@@ -55,27 +58,27 @@
         android:id="@+id/Auto_Speaker_Scored_EB"
         android:layout_width="193dp"
         android:layout_height="90dp"
-        app:backGroundColor="#F34336"
+        app:backGroundColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.406"
+        app:layout_constraintVertical_bias="0.405"
         app:textSize="50dp">
 
     </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
 
     <View
         android:id="@+id/divider114"
-        android:layout_width="690dp"
+        android:layout_width="700.1dp"
         android:layout_height="5dp"
         android:background="#000000"
         android:backgroundTint="#000000"
         android:foregroundTint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.357" />
@@ -98,18 +101,18 @@
     <View
         android:id="@+id/divider111"
         android:layout_width="5dp"
-        android:layout_height="380dp"
+        android:layout_height="400.64dp"
         android:background="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.06"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.373" />
+        app:layout_constraintVertical_bias="0.363" />
 
     <View
         android:id="@+id/divider112"
-        android:layout_width="710dp"
+        android:layout_width="700.15dp"
         android:layout_height="5dp"
         android:background="#000000"
         android:backgroundTint="#000000"
@@ -118,50 +121,50 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.563" />
+        app:layout_constraintVertical_bias="0.562" />
 
     <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
         android:id="@+id/Auto_Speaker_Attempted_EB"
         android:layout_width="193dp"
         android:layout_height="90dp"
-        app:backGroundColor="#F34336"
+        app:backGroundColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintHorizontal_bias="0.125"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.407"
+        app:layout_constraintVertical_bias="0.405"
         app:textSize="50dp">
 
     </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
 
     <View
         android:id="@+id/divider113"
-        android:layout_width="690dp"
+        android:layout_width="700.1dp"
         android:layout_height="5dp"
         android:background="#000000"
         android:backgroundTint="#000000"
         android:foregroundTint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.464" />
 
     <View
         android:id="@+id/divider112"
-        android:layout_width="710dp"
+        android:layout_width="700.1dp"
         android:layout_height="5dp"
         android:background="#000000"
         android:backgroundTint="#000000"
         android:foregroundTint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.259" />
+        app:layout_constraintVertical_bias="0.25" />
 
     <TextView
         android:id="@+id/Auto_Amp_TB"
@@ -188,10 +191,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintHorizontal_bias="0.849"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.211" />
+        app:layout_constraintVertical_bias="0.209" />
 
     <TextView
         android:id="@+id/Auto_Attempted_TB"
@@ -203,22 +206,22 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintHorizontal_bias="0.126"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.208" />
+        app:layout_constraintVertical_bias="0.209" />
 
     <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
         android:id="@+id/Auto_Amp_Scored_EB"
         android:layout_width="193dp"
         android:layout_height="90dp"
-        app:backGroundColor="#F34336"
+        app:backGroundColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.295"
+        app:layout_constraintVertical_bias="0.288"
         app:textSize="50dp">
 
     </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
@@ -226,22 +229,22 @@
     <View
         android:id="@+id/divider109"
         android:layout_width="5dp"
-        android:layout_height="380dp"
+        android:layout_height="400.64dp"
         android:background="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintHorizontal_bias="0.94"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.377" />
+        app:layout_constraintVertical_bias="0.363" />
 
     <TextView
         android:id="@+id/Autonomous_TV"
         android:layout_width="793dp"
         android:layout_height="68dp"
-        android:background="#F44336"
+        android:background="@color/colorAccent"
         android:fontFamily="@font/bolt_regular"
-        android:foregroundTint="#F44336"
+        android:foregroundTint="@color/colorAccent"
         android:gravity="center_horizontal"
         android:text="@string/autonomous"
         android:textColor="#111"
@@ -264,12 +267,13 @@
         android:id="@+id/To_Teleop"
         android:layout_width="600dp"
         android:layout_height="285dp"
-        android:backgroundTint="#F44336"
+        android:backgroundTint="@color/colorAccent"
         android:fontFamily="@font/bolt_regular"
         android:text="To            Tele Op"
         android:textSize="96sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.911" />

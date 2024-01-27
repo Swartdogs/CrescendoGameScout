@@ -77,7 +77,7 @@ public class Data_Collection_Page_1 extends AppCompatActivity {
 
                     //Defines Start button and takes to next page as well as recording data
                     Button Start_Collection = (Button) findViewById(R.id.Start_Collection);
-                    Start_Collection.setOnClickListener(new View.OnClickListener() { //Makes onclick listener for button
+                    Start_Collection.setOnClickListener(new View.OnClickListener() { //Makes onclick listener for button ~ an onclick listener is when the code is looking for you to click(event) so that it can make something visible
                         @Override
                         public void onClick(View v) {
                             if (Team_Num_txt.getText().toString().isEmpty()) {

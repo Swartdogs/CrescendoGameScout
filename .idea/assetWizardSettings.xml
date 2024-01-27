@@ -79,7 +79,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\cfrobotics\Downloads\rapid_react_logo.jpg" />
+                                                <entry key="imagePath" value="C:\Users\cfrobotics\Downloads\Black White Modern Square Frame Photography Logo (1).png" />
                                                 <entry key="scalingPercent" value="81" />
                                               </map>
                                             </option>
@@ -108,6 +108,11 @@
                                           </PersistentState>
                                         </value>
                                       </entry>
+                                    </map>
+                                  </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="outputName" value="crescendo_logo" />
                                     </map>
                                   </option>
                                 </PersistentState>

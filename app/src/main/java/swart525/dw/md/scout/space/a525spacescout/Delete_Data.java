@@ -10,6 +10,7 @@ import android.widget.CheckBox;
 public class Delete_Data extends AppCompatActivity {
 
     @Override
+    // findViewById(R.id.something) ~ it's a method that helps you find that specific view from the class
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_delete__data);

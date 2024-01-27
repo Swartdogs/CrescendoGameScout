@@ -32,23 +32,7 @@ public class Start_Page extends AppCompatActivity {
                 data_collection_TeleOP.RobotStall = "False";
                 data_collection_TeleOP.Defense = "False";
                 data_collection_TeleOP.Fouls = "False";
-                data_collection_TeleOP.TeleTopConeScore = "0";
-                data_collection_TeleOP.TeleTopConeMiss = "0";
-                data_collection_TeleOP.TeleTopCubeScore = "0";
-                data_collection_TeleOP.TeleTopCubeMiss = "0";
-                data_collection_TeleOP.TeleMidConeScore = "0";
-                data_collection_TeleOP.TeleMidConeMiss = "0";
-                data_collection_TeleOP.TeleMidCubeScore = "0";
-                data_collection_TeleOP.TeleMidCubeMiss = "0";
-                data_collection_TeleOP.TeleBottomConeScore = "0";
-                data_collection_TeleOP.TeleBottomConeMiss = "0";
-                data_collection_TeleOP.TeleBottomCubeScore = "0";
-                data_collection_TeleOP.TeleBottomCubeMiss = "0";
-                data_collection_TeleOP.TeleFieldDropCone = "0";
-                data_collection_TeleOP.TeleFieldDropCube = "0";
 
-                data_collection_end_game.Docked = "False";
-                data_collection_end_game.Engaged = "False";
                 data_collection_end_game.Parked = "False";
                 data_collection_end_game.Attempted = "False";
                 data_collection_end_game.None = "False";

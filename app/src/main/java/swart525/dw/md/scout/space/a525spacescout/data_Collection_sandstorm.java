@@ -13,6 +13,8 @@ import com.cepheuen.elegantnumberbutton.view.ElegantNumberButton;
 public class data_Collection_sandstorm extends AppCompatActivity {
 
     //Defines variables for use
+    //Static ~ tells the code that it can run without needing an instance of the class
+
    // public static String Taxi_Yes = "False";
    // public static String Taxi_No = "False";
    // public static String AutoUpperhubScore = "0";
