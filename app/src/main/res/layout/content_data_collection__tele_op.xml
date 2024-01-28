@@ -9,6 +9,20 @@
     tools:context=".data_collection_TeleOP"
     tools:showIn="@layout/activity_data_collection__tele_op">
 
+    <View
+        android:id="@+id/hDiv1"
+        android:layout_width="699dp"
+        android:layout_height="16dp"
+        android:background="#000000"
+        android:fadingEdge="none"
+        android:fadingEdgeLength="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
     <android.support.constraint.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
@@ -23,21 +37,6 @@
         app:layout_constraintVertical_bias="0.0"
         tools:context=".data_collection_TeleOP"
         tools:showIn="@layout/activity_data_collection__tele_op">
-
-        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
-            android:id="@+id/Tele_Top_Cube_Miss_EB"
-            android:layout_width="215dp"
-            android:layout_height="85dp"
-            app:backGroundColor="#ff6e00"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.868"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:textSize="34sp"
-            tools:textColor="@color/cardview_dark_background">
-
-        </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
 
         <Button
             android:id="@+id/toSubmission"
@@ -67,6 +66,38 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.013" />
+
+        <TextView
+            android:id="@+id/TeleOp_TV"
+            android:layout_width="477dp"
+            android:layout_height="63dp"
+            android:fontFamily="@font/bolt_regular"
+            android:gravity="center"
+            android:text="End Game"
+            android:textColor="#000"
+            android:textSize="55sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.29" />
+
+        <TextView
+            android:id="@+id/TeleOp_TV"
+            android:layout_width="477dp"
+            android:layout_height="63dp"
+            android:fontFamily="@font/bolt_regular"
+            android:gravity="center"
+            android:text="Other"
+            android:textColor="#000"
+            android:textSize="55sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.691" />
 
         <android.support.constraint.Barrier
             android:id="@+id/barrier2"
@@ -123,296 +154,296 @@
             android:fadingEdgeLength="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.558" />
+            app:layout_constraintVertical_bias="0.634" />
+
+        <View
+            android:id="@+id/hDiv1"
+            android:layout_width="699dp"
+            android:layout_height="16dp"
+            android:background="#000000"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.25" />
+
+        <View
+            android:id="@+id/hDiv1"
+            android:layout_width="699dp"
+            android:layout_height="16dp"
+            android:background="#000000"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.07" />
 
         <CheckBox
             android:id="@+id/defense_CB"
             android:layout_width="200dp"
             android:layout_height="75dp"
             android:text="Defense"
-            android:textSize="24sp"
+            android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.731"
-            app:layout_constraintStart_toStartOf="@+id/hDiv1"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.861" />
-
-        <CheckBox
-            android:id="@+id/harmony_CB"
-            android:layout_width="200dp"
-            android:layout_height="75dp"
-            android:text="Harmony"
-            android:textSize="24sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.27"
+            app:layout_constraintHorizontal_bias="0.793"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.861" />
+            app:layout_constraintVertical_bias="0.776" />
 
         <CheckBox
             android:id="@+id/foul_CB"
             android:layout_width="200dp"
             android:layout_height="75dp"
             android:text="Fouled"
-            android:textSize="24sp"
+            android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.27"
+            app:layout_constraintHorizontal_bias="0.285"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.741" />
+            app:layout_constraintVertical_bias="0.777" />
 
         <CheckBox
             android:id="@+id/stalled_CB"
             android:layout_width="200dp"
             android:layout_height="75dp"
             android:text="Stalled"
-            android:textSize="24sp"
+            android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.27"
+            app:layout_constraintHorizontal_bias="0.285"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.613" />
+            app:layout_constraintVertical_bias="0.852" />
 
         <CheckBox
             android:id="@+id/tipped_CB"
             android:layout_width="200dp"
             android:layout_height="75dp"
             android:text="Tipped"
-            android:textSize="24sp"
+            android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.731"
-            app:layout_constraintStart_toStartOf="@+id/hDiv1"
+            app:layout_constraintHorizontal_bias="0.793"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.613" />
+            app:layout_constraintVertical_bias="0.858" />
 
         <CheckBox
             android:id="@+id/parked_CB"
-            android:layout_width="200dp"
-            android:layout_height="75dp"
+            android:layout_width="161dp"
+            android:layout_height="58dp"
             android:text="Parked"
-            android:textSize="24sp"
+            android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/hDiv1"
-            app:layout_constraintHorizontal_bias="0.732"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.902"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.736" />
+            app:layout_constraintVertical_bias="0.372" />
 
         <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
-            android:id="@+id/Tele_Mid_Cube_Miss_EB"
+            android:id="@+id/TeleSpeakerScore_EB"
             android:layout_width="215dp"
             android:layout_height="85dp"
             app:backGroundColor="#ff6e00"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.07"
+            app:layout_constraintHorizontal_bias="0.133"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.231"
+            app:layout_constraintVertical_bias="0.193"
             app:textSize="34sp"
             tools:textColor="@color/cardview_dark_background">
 
         </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
 
         <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
-            android:id="@+id/Tele_Mid_Cube_Score_EB"
+            android:id="@+id/TeleSpeakerMissed_EB"
             android:layout_width="215dp"
             android:layout_height="85dp"
             app:backGroundColor="#ff6e00"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.641"
+            app:layout_constraintHorizontal_bias="0.882"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.417"
+            app:layout_constraintVertical_bias="0.193"
+            app:textSize="34sp"
+            tools:textColor="@color/cardview_dark_background">
+
+        </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+            android:id="@+id/TeleAmpMissed_EB"
+            android:layout_width="215dp"
+            android:layout_height="85dp"
+            app:backGroundColor="#ff6e00"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.882"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.102"
+            app:textSize="34sp"
+            tools:textColor="@color/cardview_dark_background">
+
+        </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+            android:id="@+id/TeleAmpScore_EB"
+            android:layout_width="215dp"
+            android:layout_height="85dp"
+            app:backGroundColor="#ff6e00"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.133"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.103"
             app:textSize="34sp"
             tools:textColor="@color/cardview_dark_background" />
 
-        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
-            android:id="@+id/Tele_Top_Cone_Miss_EB"
-            android:layout_width="215dp"
-            android:layout_height="85dp"
-            app:backGroundColor="#ff6e00"
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="96dp"
+            android:layout_height="68dp"
+            android:text="Amp"
+            android:textColor="#000000"
+            android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.458"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline2"
+            app:layout_constraintVertical_bias="0.109" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="142dp"
+            android:layout_height="74dp"
+            android:text="Scored"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.103"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline2"
+            app:layout_constraintVertical_bias="0.032" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="193dp"
+            android:layout_height="65dp"
+            android:text="Missed"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.973"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline2"
+            app:layout_constraintVertical_bias="0.032" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="151dp"
+            android:layout_height="59dp"
+            android:text="Speaker"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline2"
+            app:layout_constraintVertical_bias="0.199" />
+
+        <CheckBox
+            android:id="@+id/attemptedtrap_CB"
+            android:layout_width="302dp"
+            android:layout_height="117dp"
+            android:text="Attempted trap"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.835"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline2"
+            app:layout_constraintVertical_bias="0.542" />
+
+        <CheckBox
+            android:id="@+id/scoredtrap_CB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scored in trap"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.222"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.37"
-            app:textSize="34sp"
-            tools:textColor="@color/cardview_dark_background">
+            app:layout_constraintVertical_bias="0.539" />
 
-        </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
-
-        <android.support.constraint.Guideline
-            android:id="@+id/guideline"
+        <CheckBox
+            android:id="@+id/hung_CB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintGuide_begin="395dp" />
+            android:text="Hung"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.108"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.371" />
 
-        <android.support.constraint.Guideline
-            android:id="@+id/guideline5"
+        <CheckBox
+            android:id="@+id/attemptedhang_CB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintGuide_begin="182dp" />
+            android:text="Attempted Hang"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.371" />
 
-        <android.support.constraint.Guideline
-            android:id="@+id/guideline6"
+        <CheckBox
+            android:id="@+id/solo_CB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintGuide_begin="98dp" />
+            android:text="Solo"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.349"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.444" />
 
-        <android.support.constraint.Guideline
-            android:id="@+id/guideline7"
+        <CheckBox
+            android:id="@+id/harmony_CB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintGuide_begin="353dp" />
-
-        <android.support.constraint.Guideline
-            android:id="@+id/guideline8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintGuide_begin="267dp" />
-
-        <android.support.constraint.Guideline
-            android:id="@+id/guideline9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintGuide_begin="437dp" />
-
-        <android.support.constraint.Guideline
-            android:id="@+id/guideline10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintGuide_begin="523dp" />
-
-        <android.support.constraint.Guideline
-            android:id="@+id/guideline11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintGuide_begin="597dp" />
-
-        <android.support.constraint.Guideline
-            android:id="@+id/guideline12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintGuide_begin="682dp" />
-
-        <android.support.constraint.Guideline
-            android:id="@+id/guideline13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintGuide_begin="78dp" />
-
-        <android.support.constraint.Guideline
-            android:id="@+id/guideline14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintGuide_begin="508dp" />
-
-        <android.support.constraint.Guideline
-            android:id="@+id/guideline15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintGuide_begin="293dp" />
-
-        <android.support.constraint.Guideline
-            android:id="@+id/guideline16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintGuide_begin="723dp" />
-
-        <LinearLayout
-            android:layout_width="645dp"
-            android:layout_height="84dp"
-            android:orientation="horizontal"
-            tools:layout_editor_absoluteX="78dp"
-            tools:layout_editor_absoluteY="98dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                tools:layout_editor_absoluteX="78dp"
-                tools:layout_editor_absoluteY="98dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal"
-                    tools:layout_editor_absoluteX="78dp"
-                    tools:layout_editor_absoluteY="98dp">
-
-                    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
-                        android:id="@+id/Tele_Top_Cone_Score_EB"
-                        android:layout_width="215dp"
-                        android:layout_height="85dp"
-                        app:backGroundColor="#ff6e00"
-                        app:textSize="34sp"
-                        tools:textColor="@color/cardview_dark_background" />
-
-                    <Space
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1" />
-
-                    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
-                        android:id="@+id/Tele_Top_Cube_Score_EB"
-                        android:layout_width="215dp"
-                        android:layout_height="85dp"
-                        app:backGroundColor="#ff6e00"
-                        app:textSize="34sp"
-                        tools:textColor="@color/cardview_dark_background">
-
-                    </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-
-        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
-            android:id="@+id/Tele_Mid_Cone_Score_EB"
-            android:layout_width="215dp"
-            android:layout_height="85dp"
-            app:backGroundColor="#ff6e00"
-            app:textSize="34sp"
-            tools:layout_editor_absoluteX="78dp"
-            tools:layout_editor_absoluteY="598dp"
-            tools:textColor="@color/cardview_dark_background">
-
-        </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
-
-        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
-            android:id="@+id/Tele_Mid_Cone_Miss_EB"
-            android:layout_width="215dp"
-            android:layout_height="85dp"
-            app:backGroundColor="#ff6e00"
-            app:textSize="34sp"
-            tools:layout_editor_absoluteX="546dp"
-            tools:layout_editor_absoluteY="386dp"
-            tools:textColor="@color/cardview_dark_background">
-
-        </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+            android:text="Harmony"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.674"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.444" />
 
     </android.support.constraint.ConstraintLayout>
 

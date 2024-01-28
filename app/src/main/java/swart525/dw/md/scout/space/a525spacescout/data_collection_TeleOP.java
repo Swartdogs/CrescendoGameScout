@@ -27,36 +27,22 @@ public class data_collection_TeleOP extends AppCompatActivity {
     public static String RobotStall = "False";
     public static String Defense = "False";
     public static String Fouls = "False";
+    public static String Hung = "False";
+    public static String AttemptedHang = "False";
+    public static String Parked = "False";
+    public static String Solo = "False";
+    public static String Harmony = "False";
+    public static String ScoredTrap = "False";
+    public static String AttemptedTrap = "False";
+    public static String TeleAmpScore = "0";
+    public static String TeleSpeakerScore = "0";
+    public static String TeleAmpMiss = "0";
+    public static String TeleSpeakerMiss = "0";
 
-    public static String TeleTopConeScore = "0";
-    public static String TeleTopConeMiss = "0";
-    public static String TeleTopCubeScore = "0";
-    public static String TeleTopCubeMiss = "0";
-    public static String TeleMidConeScore = "0";
-    public static String TeleMidConeMiss = "0";
-    public static String TeleMidCubeScore = "0";
-    public static String TeleMidCubeMiss = "0";
-    public static String TeleBottomConeScore = "0";
-    public static String TeleBottomConeMiss = "0";
-    public static String TeleBottomCubeScore = "0";
-    public static String TeleBottomCubeMiss = "0";
-    public static String Add_TeleTopConeScore = "0";
-    public static String Add_TeleTopConeMiss = "0";
-    public static String Add_TeleTopCubeScore = "0";
-    public static String Add_TeleTopCubeMiss = "0";
-    public static String Add_TeleMidConeScore = "0";
-    public static String Add_TeleMidConeMiss = "0";
-    public static String Add_TeleMidCubeScore = "0";
-    public static String Add_TeleMidCubeMiss = "0";
-    public static String Add_TeleBottomConeScore = "0";
-    public static String Add_TeleBottomConeMiss = "0";
-    public static String Add_TeleBottomCubeScore = "0";
-    public static String Add_TeleBottomCubeMiss = "0";
-
-    public static String TeleFieldDropCone = "0";
-    public static String TeleFieldDropCube = "0";
-    public static String Add_TeleFieldDropCone = "0";
-    public static String Add_TeleFieldDropCube = "0";
+    public static String Add_TeleAmpScore = "0";
+    public static String Add_TeleSpeakerScore = "0";
+    public static String Add_TeleAmpMiss = "0";
+    public static String Add_TeleSpeakerMiss = "0";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,27 +50,23 @@ public class data_collection_TeleOP extends AppCompatActivity {
         setContentView(R.layout.activity_data_collection__tele_op);
 
         //Defines all checkboxes
-        final CheckBox RobotTipCB = (CheckBox) findViewById(R.id.tele_RobotTip_CB);
-        final CheckBox RobotStallCB = (CheckBox) findViewById(R.id.tele_RobotStall_CB);
-        final CheckBox DefenseCB = (CheckBox) findViewById(R.id.tele_Defense_CB);
-        final CheckBox FoulsCB = (CheckBox) findViewById(R.id.tele_Fouls_CB);
+        final CheckBox RobotTipCB = (CheckBox) findViewById(R.id.tipped_CB);
+        final CheckBox RobotStallCB = (CheckBox) findViewById(R.id.stalled_CB);
+        final CheckBox DefenseCB = (CheckBox) findViewById(R.id.defense_CB);
+        final CheckBox FoulsCB = (CheckBox) findViewById(R.id.foul_CB);
+        final CheckBox HungCB = (CheckBox) findViewById(R.id.hung_CB);
+        final CheckBox AttemptedHangCB = (CheckBox) findViewById(R.id.attemptedhang_CB);
+        final CheckBox ParkedCB = (CheckBox) findViewById(R.id.parked_CB);
+        final CheckBox SoloCB = (CheckBox) findViewById(R.id.solo_CB);
+        final CheckBox HarmonyCB = (CheckBox) findViewById(R.id.harmony_CB);
+        final CheckBox ScoredTrapCB = (CheckBox) findViewById(R.id.scoredtrap_CB);
+        final CheckBox AttemptedTrapCB = (CheckBox) findViewById(R.id.attemptedtrap_CB);
 
         //Defines "Elegant" Number Blocks
-        final ElegantNumberButton TeleTopConeScoreEB = (ElegantNumberButton) findViewById(R.id.Tele_Top_Cone_Score_EB);
-        final ElegantNumberButton TeleTopConeMissEB = (ElegantNumberButton) findViewById(R.id.Tele_Top_Cone_Miss_EB);
-        final ElegantNumberButton TeleTopCubeScoreEB = (ElegantNumberButton) findViewById(R.id.Tele_Top_Cube_Score_EB);
-        final ElegantNumberButton TeleTopCubeMissEB = (ElegantNumberButton) findViewById(R.id.Tele_Top_Cube_Miss_EB);
-        final ElegantNumberButton TeleMidConeScoreEB = (ElegantNumberButton) findViewById(R.id.Tele_Mid_Cone_Score_EB);
-        final ElegantNumberButton TeleMidConeMissEB = (ElegantNumberButton) findViewById(R.id.Tele_Mid_Cone_Miss_EB);
-        final ElegantNumberButton TeleMidCubeScoreEB = (ElegantNumberButton) findViewById(R.id.Tele_Mid_Cube_Score_EB);
-        final ElegantNumberButton TeleMidCubeMissEB = (ElegantNumberButton) findViewById(R.id.Tele_Mid_Cube_Miss_EB);
-        final ElegantNumberButton TeleBottomConeScoreEB = (ElegantNumberButton) findViewById(R.id.Tele_Bottom_Cone_Score_EB);
-        final ElegantNumberButton TeleBottomConeMissEB = (ElegantNumberButton) findViewById(R.id.Tele_Bottom_Cone_Miss_EB);
-        final ElegantNumberButton TeleBottomCubeScoreEB = (ElegantNumberButton) findViewById(R.id.Tele_Bottom_Cube_Score_EB);
-        final ElegantNumberButton TeleBottomCubeMissEB = (ElegantNumberButton) findViewById(R.id.Tele_Bottom_Cube_Miss_EB);
-        final ElegantNumberButton TeleFieldDropConeEB = (ElegantNumberButton) findViewById(R.id.Tele_FieldDrop_Cone_EB);
-        final ElegantNumberButton TeleFieldDropCubeEB = (ElegantNumberButton) findViewById(R.id.Tele_FieldDrop_Cube_EB);
-
+        final ElegantNumberButton TeleAmpScoredEB = (ElegantNumberButton) findViewById(R.id.TeleAmpScore_EB);
+        final ElegantNumberButton TeleAmpMissedEB = (ElegantNumberButton) findViewById(R.id.TeleAmpMissed_EB);
+        final ElegantNumberButton TeleSpeakerMissedEB = (ElegantNumberButton) findViewById(R.id.TeleSpeakerMissed_EB);
+        final ElegantNumberButton TeleSpeakerScoredEB = (ElegantNumberButton) findViewById(R.id.TeleSpeakerScore_EB);
 
         //Below defines the button and commands for saving data and switching pages
         Button To_EndGame = (Button) findViewById(R.id.toSubmission);
@@ -93,20 +75,10 @@ public class data_collection_TeleOP extends AppCompatActivity {
            @Override
            public void onClick(View v) {
 
-                TeleTopConeScore = Integer.toString(Integer.parseInt(TeleTopConeScoreEB.getNumber()) + Integer.parseInt(data_collection_TeleOP.Add_TeleTopConeScore));
-                TeleTopCubeScore = Integer.toString(Integer.parseInt(TeleTopCubeScoreEB.getNumber()) + Integer.parseInt(data_collection_TeleOP.Add_TeleTopCubeScore));
-                TeleTopConeMiss = Integer.toString(Integer.parseInt(TeleTopConeMissEB.getNumber()) + Integer.parseInt(data_collection_TeleOP.Add_TeleTopConeMiss));
-                TeleTopCubeMiss = Integer.toString(Integer.parseInt(TeleTopCubeMissEB.getNumber()) + Integer.parseInt(data_collection_TeleOP.Add_TeleTopCubeMiss));
-                TeleMidConeScore = Integer.toString(Integer.parseInt(TeleMidConeScoreEB.getNumber()) + Integer.parseInt(data_collection_TeleOP.Add_TeleMidConeScore));
-                TeleMidCubeScore = Integer.toString(Integer.parseInt(TeleMidCubeScoreEB.getNumber()) + Integer.parseInt(data_collection_TeleOP.Add_TeleMidCubeScore));
-                TeleMidConeMiss = Integer.toString(Integer.parseInt(TeleMidConeMissEB.getNumber()) + Integer.parseInt(data_collection_TeleOP.Add_TeleMidConeMiss));
-                TeleMidCubeMiss = Integer.toString(Integer.parseInt(TeleMidCubeMissEB.getNumber()) + Integer.parseInt(data_collection_TeleOP.Add_TeleMidCubeMiss));
-                TeleBottomConeScore = Integer.toString(Integer.parseInt(TeleBottomConeScoreEB.getNumber()) + Integer.parseInt(data_collection_TeleOP.Add_TeleBottomConeScore));
-                TeleBottomCubeScore = Integer.toString(Integer.parseInt(TeleBottomCubeScoreEB.getNumber()) + Integer.parseInt(data_collection_TeleOP.Add_TeleBottomCubeScore));
-                TeleBottomConeMiss = Integer.toString(Integer.parseInt(TeleBottomConeMissEB.getNumber()) + Integer.parseInt(data_collection_TeleOP.Add_TeleBottomConeMiss));
-                TeleBottomCubeMiss = Integer.toString(Integer.parseInt(TeleBottomCubeMissEB.getNumber()) + Integer.parseInt(data_collection_TeleOP.Add_TeleBottomCubeMiss));
-                TeleFieldDropCone = Integer.toString(Integer.parseInt(TeleFieldDropConeEB.getNumber()) + Integer.parseInt(data_collection_TeleOP.Add_TeleFieldDropCone));
-                TeleFieldDropCube = Integer.toString(Integer.parseInt(TeleFieldDropCubeEB.getNumber()) + Integer.parseInt(data_collection_TeleOP.Add_TeleFieldDropCube));
+                TeleAmpScore = Integer.toString(Integer.parseInt(TeleAmpScoredEB.getNumber()) + Integer.parseInt(data_collection_TeleOP.Add_TeleAmpScore));
+                TeleAmpMiss = Integer.toString(Integer.parseInt(TeleAmpMissedEB.getNumber()) + Integer.parseInt(data_collection_TeleOP.Add_TeleAmpMiss));
+                TeleSpeakerMiss = Integer.toString(Integer.parseInt(TeleSpeakerMissedEB.getNumber()) + Integer.parseInt(data_collection_TeleOP.Add_TeleSpeakerMiss));
+                TeleSpeakerScore = Integer.toString(Integer.parseInt(TeleSpeakerScoredEB.getNumber()) + Integer.parseInt(data_collection_TeleOP.Add_TeleSpeakerScore));
 
                 if (RobotTipCB.isChecked()) {
                     RobotTip = "True";
@@ -120,6 +92,31 @@ public class data_collection_TeleOP extends AppCompatActivity {
                 if (FoulsCB.isChecked()) {
                     Fouls = "True";
                 }
+                if (HungCB.isChecked()) {
+                    Hung = "True";
+                }
+                if (RobotTipCB.isChecked()) {
+                   RobotTip = "True";
+                }
+                if (AttemptedHangCB.isChecked()) {
+                   AttemptedHang = "True";
+                }
+                if (ParkedCB.isChecked()) {
+                    Parked = "True";
+                }
+                if (SoloCB.isChecked()) {
+                    Solo = "True";
+                }
+                if (HarmonyCB.isChecked()) {
+                    Harmony = "True";
+                }
+                if (ScoredTrapCB.isChecked()) {
+                    ScoredTrap = "True";
+                }
+                if (AttemptedTrapCB.isChecked()) {
+                    AttemptedTrap = "True";
+                }
+
 
 
                     Intent startintent = new Intent(getApplicationContext(), data_collection_end_game.class);
