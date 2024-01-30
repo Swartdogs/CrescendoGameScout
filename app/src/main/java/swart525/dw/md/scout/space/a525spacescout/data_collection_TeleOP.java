@@ -34,6 +34,8 @@ public class data_collection_TeleOP extends AppCompatActivity {
     public static String Harmony = "False";
     public static String ScoredTrap = "False";
     public static String AttemptedTrap = "False";
+    public static String NoneTrap = "False";
+    public static String NoneHang = "False";
     public static String TeleAmpScore = "0";
     public static String TeleSpeakerScore = "0";
     public static String TeleAmpMiss = "0";
@@ -61,6 +63,8 @@ public class data_collection_TeleOP extends AppCompatActivity {
         final CheckBox HarmonyCB = (CheckBox) findViewById(R.id.harmony_CB);
         final CheckBox ScoredTrapCB = (CheckBox) findViewById(R.id.scoredtrap_CB);
         final CheckBox AttemptedTrapCB = (CheckBox) findViewById(R.id.attemptedtrap_CB);
+        final CheckBox NoneTrapCB = (CheckBox) findViewById(R.id.nonetrap_CB);
+        final CheckBox NoneHangCB = (CheckBox) findViewById(R.id.nonehang_CB);
 
         //Defines "Elegant" Number Blocks
         final ElegantNumberButton TeleAmpScoredEB = (ElegantNumberButton) findViewById(R.id.TeleAmpScore_EB);
@@ -116,10 +120,15 @@ public class data_collection_TeleOP extends AppCompatActivity {
                 if (AttemptedTrapCB.isChecked()) {
                     AttemptedTrap = "True";
                 }
+                if (NoneTrapCB.isChecked()) {
+                    NoneTrap = "True";
+                }
+                if (NoneHangCB.isChecked()) {
+                    NoneHang = "True";
+                }
 
 
-
-                    Intent startintent = new Intent(getApplicationContext(), data_collection_end_game.class);
+                    Intent startintent = new Intent(getApplicationContext(), Save_Page.class);
                     startActivity(startintent);
                 }
 
