@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.RadioButton;
 
 import com.cepheuen.elegantnumberbutton.view.ElegantNumberButton;
 
@@ -27,11 +28,10 @@ public class data_collection_TeleOP extends AppCompatActivity {
     public static String RobotStall = "False";
     public static String Defense = "False";
     public static String Fouls = "False";
-    public static String Hung = "False";
     public static String AttemptedHang = "False";
     public static String Parked = "False";
-    public static String Solo = "False";
-    public static String Harmony = "False";
+    public static String SoloHang = "False";
+    public static String HarmonyHang = "False";
     public static String ScoredTrap = "False";
     public static String AttemptedTrap = "False";
     public static String NoneTrap = "False";
@@ -56,15 +56,16 @@ public class data_collection_TeleOP extends AppCompatActivity {
         final CheckBox RobotStallCB = (CheckBox) findViewById(R.id.stalled_CB);
         final CheckBox DefenseCB = (CheckBox) findViewById(R.id.defense_CB);
         final CheckBox FoulsCB = (CheckBox) findViewById(R.id.foul_CB);
-        final CheckBox HungCB = (CheckBox) findViewById(R.id.hung_CB);
-        final CheckBox AttemptedHangCB = (CheckBox) findViewById(R.id.attemptedhang_CB);
-        final CheckBox ParkedCB = (CheckBox) findViewById(R.id.parked_CB);
-        final CheckBox SoloCB = (CheckBox) findViewById(R.id.solo_CB);
-        final CheckBox HarmonyCB = (CheckBox) findViewById(R.id.harmony_CB);
-        final CheckBox ScoredTrapCB = (CheckBox) findViewById(R.id.scoredtrap_CB);
-        final CheckBox AttemptedTrapCB = (CheckBox) findViewById(R.id.attemptedtrap_CB);
-        final CheckBox NoneTrapCB = (CheckBox) findViewById(R.id.nonetrap_CB);
-        final CheckBox NoneHangCB = (CheckBox) findViewById(R.id.nonehang_CB);
+
+        //Defines All Radio Buttons
+        final RadioButton SoloHangRB = (RadioButton) findViewById(R.id.End_SoloHang_RB);
+        final RadioButton HarmonyHangRB = (RadioButton) findViewById(R.id.End_HarmonyHang_RB);
+        final RadioButton AttemptedHangRB = (RadioButton) findViewById(R.id.End_AttemptedHang_RB);
+        final RadioButton ParkRB = (RadioButton) findViewById(R.id.End_Park_RB);
+        final RadioButton NoHangParkAttemptRB = (RadioButton) findViewById(R.id.End_NoHangParkAttempt_RB);
+        final RadioButton TrapScoreRB = (RadioButton) findViewById(R.id.End_TrapScore_RB);
+        final RadioButton TrapAttemptedRB = (RadioButton) findViewById(R.id.End_TrapAttempt_RB);
+        final RadioButton NoTrapAttemptRB = (RadioButton) findViewById(R.id.End_NoTrapAttempt_RB);
 
         //Defines "Elegant" Number Blocks
         final ElegantNumberButton TeleAmpScoredEB = (ElegantNumberButton) findViewById(R.id.TeleAmpScore_EB);
@@ -96,34 +97,34 @@ public class data_collection_TeleOP extends AppCompatActivity {
                 if (FoulsCB.isChecked()) {
                     Fouls = "True";
                 }
-                if (HungCB.isChecked()) {
-                    Hung = "True";
+                if (SoloHangRB.isChecked()) {
+                    SoloHang = "True";
                 }
                 if (RobotTipCB.isChecked()) {
                    RobotTip = "True";
                 }
-                if (AttemptedHangCB.isChecked()) {
+                if (AttemptedHangRB.isChecked()) {
                    AttemptedHang = "True";
                 }
-                if (ParkedCB.isChecked()) {
+                if (ParkRB.isChecked()) {
                     Parked = "True";
                 }
-                if (SoloCB.isChecked()) {
-                    Solo = "True";
+                if (SoloHangRB.isChecked()) {
+                    SoloHang = "True";
                 }
-                if (HarmonyCB.isChecked()) {
-                    Harmony = "True";
+                if (HarmonyHangRB.isChecked()) {
+                    HarmonyHang = "True";
                 }
-                if (ScoredTrapCB.isChecked()) {
+                if (TrapScoreRB.isChecked()) {
                     ScoredTrap = "True";
                 }
-                if (AttemptedTrapCB.isChecked()) {
+                if (TrapAttemptedRB.isChecked()) {
                     AttemptedTrap = "True";
                 }
-                if (NoneTrapCB.isChecked()) {
+                if (NoTrapAttemptRB.isChecked()) {
                     NoneTrap = "True";
                 }
-                if (NoneHangCB.isChecked()) {
+                if (NoHangParkAttemptRB.isChecked()) {
                     NoneHang = "True";
                 }
 

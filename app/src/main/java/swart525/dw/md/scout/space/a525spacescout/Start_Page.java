@@ -31,11 +31,10 @@ public class Start_Page extends AppCompatActivity {
                 data_collection_TeleOP.RobotStall = "False";
                 data_collection_TeleOP.Defense = "False";
                 data_collection_TeleOP.Fouls = "False";
-                data_collection_TeleOP.Solo = "False";
-                data_collection_TeleOP.Harmony = "False";
+                data_collection_TeleOP.SoloHang = "False";
+                data_collection_TeleOP.HarmonyHang = "False";
                 data_collection_TeleOP.ScoredTrap = "False";
                 data_collection_TeleOP.AttemptedTrap = "False";
-                data_collection_TeleOP.Hung = "False";
                 data_collection_TeleOP.AttemptedHang = "False";
                 data_collection_TeleOP.NoneHang = "False";
                 data_collection_TeleOP.NoneTrap = "False";
