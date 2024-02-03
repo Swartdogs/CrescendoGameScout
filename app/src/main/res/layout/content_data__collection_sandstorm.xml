@@ -38,19 +38,6 @@
 
     </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
 
-    <CheckBox
-        android:id="@+id/Auto_Stop_Button_CB"
-        android:layout_width="610dp"
-        android:layout_height="59dp"
-        android:text="     Did team hit auto stop?"
-        android:textSize="48sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.511" />
-
     <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
         android:id="@+id/Auto_Speaker_Scored_EB"
         android:layout_width="193dp"
@@ -98,14 +85,14 @@
     <View
         android:id="@+id/divider111"
         android:layout_width="5dp"
-        android:layout_height="380dp"
+        android:layout_height="250dp"
         android:background="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.062"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.373" />
+        app:layout_constraintVertical_bias="0.32" />
 
     <View
         android:id="@+id/divider112"
@@ -116,9 +103,10 @@
         android:foregroundTint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.588"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.563" />
+        app:layout_constraintVertical_bias="0.45" />
 
     <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
         android:id="@+id/Auto_Speaker_Attempted_EB"
@@ -134,20 +122,6 @@
         app:textSize="50dp">
 
     </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
-
-    <View
-        android:id="@+id/divider113"
-        android:layout_width="690dp"
-        android:layout_height="5dp"
-        android:background="#000000"
-        android:backgroundTint="#000000"
-        android:foregroundTint="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.545"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.464" />
 
     <View
         android:id="@+id/divider112"
@@ -226,14 +200,14 @@
     <View
         android:id="@+id/divider109"
         android:layout_width="5dp"
-        android:layout_height="380dp"
+        android:layout_height="250dp"
         android:background="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintHorizontal_bias="0.953"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.377" />
+        app:layout_constraintVertical_bias="0.32" />
 
     <TextView
         android:id="@+id/Autonomous_TV"

@@ -31,7 +31,6 @@ public class Actual_Submit extends AppCompatActivity {
             data_Collection_sandstorm.AutoAmpScore + "," +
             data_Collection_sandstorm.AutoAmpAttempt + "," +
             data_Collection_sandstorm.AutoSpeakerScore + "," +
-            data_Collection_sandstorm.AutoStopButtonPressed + "," +
             data_collection_TeleOP.TeleAmpScore + "," +
             data_collection_TeleOP.TeleAmpMiss + "," +
             data_collection_TeleOP.TeleSpeakerScore + "," +

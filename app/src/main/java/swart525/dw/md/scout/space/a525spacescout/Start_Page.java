@@ -22,7 +22,6 @@ public class Start_Page extends AppCompatActivity {
 
                 Data_Collection_Page_1.NoShow = "False";
 
-                data_Collection_sandstorm.AutoStopButtonPressed = "False";
                 data_Collection_sandstorm.AutoAmpAttempt = "0";
                 data_Collection_sandstorm.AutoAmpScore = "0";
                 data_Collection_sandstorm.AutoSpeakerAttempt = "0";

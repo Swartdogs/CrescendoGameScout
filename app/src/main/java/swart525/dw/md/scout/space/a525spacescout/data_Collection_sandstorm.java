@@ -18,8 +18,6 @@ public class data_Collection_sandstorm extends AppCompatActivity {
    // public static String AutoUpperhubScore = "0";
   //  public static String AutoUpperhubMiss = "0";
 
-    public static String AutoStopButtonPressed = "False";
-
     public static String AutoAmpScore = "0";
     public static String AutoAmpAttempt = "0";
     public static String AutoSpeakerScore = "0";
@@ -35,8 +33,6 @@ public class data_Collection_sandstorm extends AppCompatActivity {
         setContentView(R.layout.activity_data__collection_sandstorm);
 
         //Defines all CheckBoxes for positions
-        final CheckBox AutoStopButtonCB = (CheckBox) findViewById(R.id.Auto_Stop_Button_CB);
-
         //final RadioButton TaxiYesRB = (RadioButton) findViewById(R.id.Auto_Taxi_Yes_RB);
         //final RadioButton TaxiNoRB = (RadioButton) findViewById(R.id.Auto_Taxi_No_RB);
 
@@ -60,9 +56,6 @@ public class data_Collection_sandstorm extends AppCompatActivity {
                 AutoSpeakerScore = Integer.toString(Integer.parseInt(AutoSpeakerScoredEB.getNumber()) + Integer.parseInt(data_Collection_sandstorm.Add_AutoSpeakerScore));
 
                 /*add in data collection pieces from checkboxes*/
-                if (AutoStopButtonCB.isChecked()) {
-                    AutoStopButtonPressed = "True";
-                }
                 Intent startintent = new Intent(getApplicationContext(), data_collection_TeleOP.class);
                 startActivity(startintent);
             }
