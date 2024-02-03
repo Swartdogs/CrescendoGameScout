@@ -27,30 +27,31 @@ public class Actual_Submit extends AppCompatActivity {
     //Compiles string for CSV file
     public String Final_String = Data_Collection_Page_1.Team_Num + "," +
             Data_Collection_Page_1.Match_Num + "," +
-            data_Collection_sandstorm.AutoSpeakerScore + "," +
             data_Collection_sandstorm.AutoAmpScore + "," +
             data_Collection_sandstorm.AutoAmpAttempt + "," +
             data_Collection_sandstorm.AutoSpeakerScore + "," +
+            data_Collection_sandstorm.AutoSpeakerAttempt + "," +
             data_collection_TeleOP.TeleAmpScore + "," +
             data_collection_TeleOP.TeleAmpMiss + "," +
             data_collection_TeleOP.TeleSpeakerScore + "," +
             data_collection_TeleOP.TeleSpeakerMiss + "," +
             data_collection_TeleOP.AttemptedHang + "," +
-            data_collection_TeleOP.NoneHang + "," +
             data_collection_TeleOP.SoloHang + "," +
             data_collection_TeleOP.HarmonyHang + "," +
+            data_collection_TeleOP.NoneHang + "," +
+            data_collection_TeleOP.Parked + "," +
             data_collection_TeleOP.ScoredTrap + "," +
             data_collection_TeleOP.AttemptedTrap + "," +
-            data_collection_TeleOP.NoneTrap + "," +
             data_collection_TeleOP.Defense + "," +
-            data_collection_TeleOP.Parked + "," +
+            data_collection_TeleOP.Fouls + "," +
             data_collection_TeleOP.RobotTip + "," +
             data_collection_TeleOP.RobotStall + "," +
-            data_collection_TeleOP.Fouls + "," +
 
-            Save_Page.comment + "," +
+
             Data_Collection_Page_1.Initials + "," +
-            Data_Collection_Page_1.NoShow;
+            Data_Collection_Page_1.NoShow + "," +
+            Save_Page.comment;
+
 
     File externalStorageDir = Environment.getExternalStorageDirectory();
     public File Scout_Data = new File(externalStorageDir , "/DCIM/" + fileName);

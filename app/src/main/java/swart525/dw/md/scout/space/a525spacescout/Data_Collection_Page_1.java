@@ -18,6 +18,8 @@ public class Data_Collection_Page_1 extends AppCompatActivity {
     public static String Initials = "We got a runner";
     public static String NoShow = "false";
 
+
+   // This whole
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -59,20 +61,23 @@ public class Data_Collection_Page_1 extends AppCompatActivity {
 
                     if (NoShowCB.isChecked()) {
                         NoShow = "True";
+                        Intent startintent = new Intent(getApplicationContext(), Actual_Submit.class);
+                        startActivity(startintent);
                     }
-
-                    if (Compare_Match_Num > Match_Num_Real) {
-                        if (Compare_Team_Num < Team_Num_Real) {
-                            Team_Num = Integer.parseInt(Team_Num_txt.getText().toString()); //Sets team num data to txt box information
-                            Match_Num = Integer.parseInt(Match_Num_txt.getText().toString()); //Sets match num data to txt box information
-                            Initials = Initials_txt.getText().toString();
-                            Intent startintent = new Intent(getApplicationContext(), data_Collection_sandstorm.class);
-                            startActivity(startintent);
+                    else {
+                        if (Compare_Match_Num > Match_Num_Real) {
+                            if (Compare_Team_Num < Team_Num_Real) {
+                                Team_Num = Integer.parseInt(Team_Num_txt.getText().toString()); //Sets team num data to txt box information
+                                Match_Num = Integer.parseInt(Match_Num_txt.getText().toString()); //Sets match num data to txt box information
+                                Initials = Initials_txt.getText().toString();
+                                Intent startintent = new Intent(getApplicationContext(), data_Collection_sandstorm.class);
+                                startActivity(startintent);
+                            } else {
+                                Toast.makeText(Data_Collection_Page_1.this, "Did you make a mistake? Please make sure Team Number and Match Number aren't flipped.", Toast.LENGTH_LONG).show();
+                            }
                         } else {
                             Toast.makeText(Data_Collection_Page_1.this, "Did you make a mistake? Please make sure Team Number and Match Number aren't flipped.", Toast.LENGTH_LONG).show();
                         }
-                    } else {
-                        Toast.makeText(Data_Collection_Page_1.this, "Did you make a mistake? Please make sure Team Number and Match Number aren't flipped.", Toast.LENGTH_LONG).show();
                     }
 
                     //Defines Start button and takes to next page as well as recording data
@@ -86,9 +91,14 @@ public class Data_Collection_Page_1 extends AppCompatActivity {
                                 int Team_Num_Real = Integer.parseInt(Team_Num_txt.getText().toString());
                                 if (Compare_Team_Num < Team_Num_Real) {
                                     Team_Num = Integer.parseInt(Team_Num_txt.getText().toString()); //Sets team num data to txt box information
-
+                                    if (NoShowCB.isChecked()) {
+                                        NoShow = "True";
+                                        Intent startintent = new Intent(getApplicationContext(), Actual_Submit.class);
+                                        startActivity(startintent);
+                                    }
+                                    else {
                                     Intent startintent = new Intent(getApplicationContext(), data_Collection_sandstorm.class);
-                                    startActivity(startintent);
+                                    startActivity(startintent); }
                                 } else {
                                     Toast.makeText(Data_Collection_Page_1.this, "Did you make a mistake? Please make sure Team Number and Match Number aren't flipped.", Toast.LENGTH_LONG).show();
                                 }
