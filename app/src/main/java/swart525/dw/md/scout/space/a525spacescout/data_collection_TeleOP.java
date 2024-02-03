@@ -28,14 +28,6 @@ public class data_collection_TeleOP extends AppCompatActivity {
     public static String RobotStall = "False";
     public static String Defense = "False";
     public static String Fouls = "False";
-    public static String AttemptedHang = "False";
-    public static String Parked = "False";
-    public static String SoloHang = "False";
-    public static String HarmonyHang = "False";
-    public static String ScoredTrap = "False";
-    public static String AttemptedTrap = "False";
-    public static String NoneTrap = "False";
-    public static String NoneHang = "False";
     public static String TeleAmpScore = "0";
     public static String TeleSpeakerScore = "0";
     public static String TeleAmpMiss = "0";
@@ -57,15 +49,7 @@ public class data_collection_TeleOP extends AppCompatActivity {
         final CheckBox DefenseCB = (CheckBox) findViewById(R.id.defense_CB);
         final CheckBox FoulsCB = (CheckBox) findViewById(R.id.foul_CB);
 
-        //Defines All Radio Buttons
-        final RadioButton SoloHangRB = (RadioButton) findViewById(R.id.End_SoloHang_RB);
-        final RadioButton HarmonyHangRB = (RadioButton) findViewById(R.id.End_HarmonyHang_RB);
-        final RadioButton AttemptedHangRB = (RadioButton) findViewById(R.id.End_AttemptedHang_RB);
-        final RadioButton ParkRB = (RadioButton) findViewById(R.id.End_Park_RB);
-        final RadioButton NoHangParkAttemptRB = (RadioButton) findViewById(R.id.End_NoHangParkAttempt_RB);
-        final RadioButton TrapScoreRB = (RadioButton) findViewById(R.id.End_TrapScore_RB);
-        final RadioButton TrapAttemptedRB = (RadioButton) findViewById(R.id.End_TrapAttempt_RB);
-        final RadioButton NoTrapAttemptRB = (RadioButton) findViewById(R.id.End_NoTrapAttempt_RB);
+
 
         //Defines "Elegant" Number Blocks
         final ElegantNumberButton TeleAmpScoredEB = (ElegantNumberButton) findViewById(R.id.TeleAmpScore_EB);
@@ -97,39 +81,14 @@ public class data_collection_TeleOP extends AppCompatActivity {
                 if (FoulsCB.isChecked()) {
                     Fouls = "True";
                 }
-                if (SoloHangRB.isChecked()) {
-                    SoloHang = "True";
-                }
+
                 if (RobotTipCB.isChecked()) {
                    RobotTip = "True";
                 }
-                if (AttemptedHangRB.isChecked()) {
-                   AttemptedHang = "True";
-                }
-                if (ParkRB.isChecked()) {
-                    Parked = "True";
-                }
-                if (SoloHangRB.isChecked()) {
-                    SoloHang = "True";
-                }
-                if (HarmonyHangRB.isChecked()) {
-                    HarmonyHang = "True";
-                }
-                if (TrapScoreRB.isChecked()) {
-                    ScoredTrap = "True";
-                }
-                if (TrapAttemptedRB.isChecked()) {
-                    AttemptedTrap = "True";
-                }
-                if (NoTrapAttemptRB.isChecked()) {
-                    NoneTrap = "True";
-                }
-                if (NoHangParkAttemptRB.isChecked()) {
-                    NoneHang = "True";
-                }
 
 
-                    Intent startintent = new Intent(getApplicationContext(), Save_Page.class);
+
+                    Intent startintent = new Intent(getApplicationContext(), data_collection_end_game.class);
                     startActivity(startintent);
                 }
 

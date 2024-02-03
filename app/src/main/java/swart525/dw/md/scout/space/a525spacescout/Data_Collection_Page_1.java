@@ -59,26 +59,29 @@ public class Data_Collection_Page_1 extends AppCompatActivity {
                     int Team_Num_Real = Integer.parseInt(Team_Num_txt.getText().toString());
                     int Match_Num_Real = Integer.parseInt(Match_Num_txt.getText().toString());
 
-                    if (NoShowCB.isChecked()) {
-                        NoShow = "True";
-                        Intent startintent = new Intent(getApplicationContext(), Actual_Submit.class);
-                        startActivity(startintent);
-                    }
-                    else {
+
                         if (Compare_Match_Num > Match_Num_Real) {
                             if (Compare_Team_Num < Team_Num_Real) {
                                 Team_Num = Integer.parseInt(Team_Num_txt.getText().toString()); //Sets team num data to txt box information
                                 Match_Num = Integer.parseInt(Match_Num_txt.getText().toString()); //Sets match num data to txt box information
                                 Initials = Initials_txt.getText().toString();
+
+                                if (NoShowCB.isChecked()) {
+                                    NoShow = "True";
+                                    Intent startintent = new Intent(getApplicationContext(), Actual_Submit.class);
+                                    startActivity(startintent);
+                                }
+                                else {
+
                                 Intent startintent = new Intent(getApplicationContext(), data_Collection_sandstorm.class);
-                                startActivity(startintent);
+                                startActivity(startintent); }
                             } else {
                                 Toast.makeText(Data_Collection_Page_1.this, "Did you make a mistake? Please make sure Team Number and Match Number aren't flipped.", Toast.LENGTH_LONG).show();
                             }
                         } else {
                             Toast.makeText(Data_Collection_Page_1.this, "Did you make a mistake? Please make sure Team Number and Match Number aren't flipped.", Toast.LENGTH_LONG).show();
                         }
-                    }
+
 
                     //Defines Start button and takes to next page as well as recording data
                     Button Start_Collection = (Button) findViewById(R.id.Start_Collection);

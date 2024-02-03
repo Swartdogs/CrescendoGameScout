@@ -12,11 +12,14 @@ public class data_collection_end_game extends AppCompatActivity {
 
     //Defines needed variables
 
-    public static String Docked = "False";
-    public static String Engaged = "False";
+    public static String AttemptedHang = "False";
     public static String Parked = "False";
-    public static String Attempted = "False";
-    public static String None = "False";
+    public static String SoloHang = "False";
+    public static String HarmonyHang = "False";
+    public static String ScoredTrap = "False";
+    public static String AttemptedTrap = "False";
+    public static String NoneTrap = "False";
+    public static String NoneHang = "False";
 
 
 
@@ -27,14 +30,18 @@ public class data_collection_end_game extends AppCompatActivity {
         setContentView(R.layout.activity_data_collection_end_game);
 
         //Defines Page Elements
-        final RadioButton DockedRB = (RadioButton) findViewById(R.id.endgame_Docked_RB);
-        final RadioButton EngagedRB = (RadioButton) findViewById(R.id.endgame_Engaged_RB);
-        final RadioButton ParkedRB = (RadioButton) findViewById(R.id.endgame_Parked_RB);
-        final RadioButton NoneRB = (RadioButton) findViewById(R.id.endgame_None_RB);
+        //Defines All Radio Buttons
+        final RadioButton SoloHangRB = (RadioButton) findViewById(R.id.End_SoloHang_RB);
+        final RadioButton HarmonyHangRB = (RadioButton) findViewById(R.id.End_HarmonyHang_RB);
+        final RadioButton AttemptedHangRB = (RadioButton) findViewById(R.id.End_AttemptedHang_RB);
+        final RadioButton ParkRB = (RadioButton) findViewById(R.id.End_Park_RB);
+        final RadioButton NoHangParkAttemptRB = (RadioButton) findViewById(R.id.End_NoHangParkAttempt_RB);
+        final RadioButton TrapScoreRB = (RadioButton) findViewById(R.id.End_TrapScore_RB);
+        final RadioButton TrapAttemptedRB = (RadioButton) findViewById(R.id.End_TrapAttempt_RB);
+        final RadioButton NoTrapAttemptRB = (RadioButton) findViewById(R.id.End_NoTrapAttempt_RB);
 
 
         //final CheckBox AttemptedHangCB = (CheckBox) findViewById(R.id.AttemptedHang_CB);
-        final CheckBox AttemptedCB = (CheckBox) findViewById(R.id.endgame_Attempted_CB);
 
 
         Button To_Submission = (Button) findViewById(R.id.To_Submission_B); //Defines button for later use
@@ -46,22 +53,33 @@ public class data_collection_end_game extends AppCompatActivity {
 
                 //Ending position variables
                 //Because these are radio buttons, they may need to be changed to isChecked
-                if (DockedRB.isChecked()) {
-                    Docked = "True";
+                if (AttemptedHangRB.isChecked()) {
+                    AttemptedHang = "True";
                 }
-                if (EngagedRB.isChecked()) {
-                    Engaged = "True";
-                }
-                if (ParkedRB.isChecked())  {
+                if (ParkRB.isChecked()) {
                     Parked = "True";
                 }
-                if (AttemptedCB.isChecked()) {
-                    Attempted = "True";
+                if (SoloHangRB.isChecked()) {
+                    SoloHang = "True";
                 }
-                if (NoneRB.isChecked()) {
-                    None = "True";
+                if (HarmonyHangRB.isChecked()) {
+                    HarmonyHang = "True";
                 }
-
+                if (TrapScoreRB.isChecked()) {
+                    ScoredTrap = "True";
+                }
+                if (TrapAttemptedRB.isChecked()) {
+                    AttemptedTrap = "True";
+                }
+                if (NoTrapAttemptRB.isChecked()) {
+                    NoneTrap = "True";
+                }
+                if (NoHangParkAttemptRB.isChecked()) {
+                    NoneHang = "True";
+                }
+                if (SoloHangRB.isChecked()) {
+                    SoloHang = "True";
+                }
 
                 Intent startintent = new Intent(getApplicationContext(), Save_Page.class);
                 startActivity(startintent);

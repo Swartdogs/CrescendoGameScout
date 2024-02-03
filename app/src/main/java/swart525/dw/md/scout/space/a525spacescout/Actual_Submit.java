@@ -35,18 +35,17 @@ public class Actual_Submit extends AppCompatActivity {
             data_collection_TeleOP.TeleAmpMiss + "," +
             data_collection_TeleOP.TeleSpeakerScore + "," +
             data_collection_TeleOP.TeleSpeakerMiss + "," +
-            data_collection_TeleOP.AttemptedHang + "," +
-            data_collection_TeleOP.SoloHang + "," +
-            data_collection_TeleOP.HarmonyHang + "," +
-            data_collection_TeleOP.NoneHang + "," +
-            data_collection_TeleOP.Parked + "," +
-            data_collection_TeleOP.ScoredTrap + "," +
-            data_collection_TeleOP.AttemptedTrap + "," +
+            data_collection_end_game.AttemptedHang + "," +
+            data_collection_end_game.SoloHang + "," +
+            data_collection_end_game.HarmonyHang + "," +
+            data_collection_end_game.NoneHang + "," +
+            data_collection_end_game.Parked + "," +
+            data_collection_end_game.ScoredTrap + "," +
+            data_collection_end_game.AttemptedTrap + "," +
             data_collection_TeleOP.Defense + "," +
             data_collection_TeleOP.Fouls + "," +
             data_collection_TeleOP.RobotTip + "," +
             data_collection_TeleOP.RobotStall + "," +
-
 
             Data_Collection_Page_1.Initials + "," +
             Data_Collection_Page_1.NoShow + "," +

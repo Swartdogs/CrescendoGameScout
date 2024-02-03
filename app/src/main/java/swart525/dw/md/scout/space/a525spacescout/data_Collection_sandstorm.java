@@ -17,15 +17,14 @@ public class data_Collection_sandstorm extends AppCompatActivity {
    // public static String Taxi_No = "False";
    // public static String AutoUpperhubScore = "0";
   //  public static String AutoUpperhubMiss = "0";
-
     public static String AutoAmpScore = "0";
     public static String AutoAmpAttempt = "0";
     public static String AutoSpeakerScore = "0";
     public static String AutoSpeakerAttempt = "0";
-    public static String Add_AutoAmpScore = "1";
-    public static String Add_AutoAmpAttempt = "1";
-    public static String Add_AutoSpeakerScore = "1";
-    public static String Add_AutoSpeakerAttempt = "1";
+    public static String Add_AutoAmpScore = "0";
+    public static String Add_AutoAmpAttempt = "0";
+    public static String Add_AutoSpeakerScore = "0";
+    public static String Add_AutoSpeakerAttempt = "0";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
