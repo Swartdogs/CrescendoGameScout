@@ -17,12 +17,36 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="1.0"
         tools:context=".data_collection_TeleOP"
         tools:showIn="@layout/activity_data_collection__tele_op">
+
+        <View
+            android:id="@+id/divider111"
+            android:layout_width="5dp"
+            android:layout_height="214dp"
+            android:background="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.055"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.26" />
+
+        <View
+            android:id="@+id/divider111"
+            android:layout_width="5dp"
+            android:layout_height="214dp"
+            android:background="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.947"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.261" />
 
         <Button
             android:id="@+id/toSubmission"
@@ -40,45 +64,91 @@
 
         <TextView
             android:id="@+id/end_Trap_TV"
-            android:layout_width="477dp"
-            android:layout_height="63dp"
+            android:layout_width="429dp"
+            android:layout_height="87dp"
             android:fontFamily="@font/bolt_regular"
             android:gravity="center"
-            android:text="Tele Op"
+            android:text="Teleop"
             android:textColor="#000"
-            android:textSize="55sp"
+            android:textSize="72sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.461"
+            app:layout_constraintHorizontal_bias="0.501"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.027" />
+            app:layout_constraintVertical_bias="0.032" />
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="142dp"
-            android:layout_height="74dp"
+            android:layout_width="136dp"
+            android:layout_height="61dp"
             android:text="Scored"
             android:textColor="#000000"
             android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.87"
+            app:layout_constraintHorizontal_bias="0.837"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/guideline2"
-            app:layout_constraintVertical_bias="0.053" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.173" />
 
         <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
             android:id="@+id/TeleSpeakerScore_EB"
-            android:layout_width="215dp"
-            android:layout_height="85dp"
+            android:layout_width="193dp"
+            android:layout_height="67dp"
             app:backGroundColor="#ff6e00"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.902"
+            app:layout_constraintHorizontal_bias="0.869"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.275"
+            app:layout_constraintVertical_bias="0.337"
+            app:textSize="50dp"
+            tools:textColor="@color/button_no">
+
+        </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+            android:id="@+id/TeleAmpScore_EB"
+            android:layout_width="193dp"
+            android:layout_height="67dp"
+            app:backGroundColor="#ff6e00"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.869"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.244"
+            app:textSize="50sp"
+            tools:textColor="@color/button_no" />
+
+        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+            android:id="@+id/TeleAmpMissed_EB"
+            android:layout_width="193dp"
+            android:layout_height="67dp"
+            app:backGroundColor="#ff6e00"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.164"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.244"
+            app:textSize="50sp"
+            tools:textColor="@color/button_no">
+
+        </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+            android:id="@+id/TeleSpeakerMissed_EB"
+            android:layout_width="193dp"
+            android:layout_height="67dp"
+            app:backGroundColor="#ff6e00"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.164"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.337"
             app:textSize="50dp"
             tools:textColor="@color/button_no">
 
@@ -86,17 +156,17 @@
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="193dp"
-            android:layout_height="65dp"
+            android:layout_width="157dp"
+            android:layout_height="63dp"
             android:text="Missed"
             android:textColor="#000000"
             android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.123"
+            app:layout_constraintHorizontal_bias="0.183"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/guideline2"
-            app:layout_constraintVertical_bias="0.053" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.176" />
 
         <CheckBox
             android:id="@+id/foul_CB"
@@ -106,10 +176,10 @@
             android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.206"
+            app:layout_constraintHorizontal_bias="0.266"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.479" />
+            app:layout_constraintVertical_bias="0.59" />
 
         <CheckBox
             android:id="@+id/defense_CB"
@@ -119,10 +189,10 @@
             android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.785"
+            app:layout_constraintHorizontal_bias="0.78"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.479" />
+            app:layout_constraintVertical_bias="0.584" />
 
         <CheckBox
             android:id="@+id/tipped_CB"
@@ -132,10 +202,10 @@
             android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.785"
+            app:layout_constraintHorizontal_bias="0.78"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.542" />
+            app:layout_constraintVertical_bias="0.646" />
 
         <CheckBox
             android:id="@+id/stalled_CB"
@@ -145,128 +215,123 @@
             android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.204"
+            app:layout_constraintHorizontal_bias="0.266"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.541" />
+            app:layout_constraintVertical_bias="0.65" />
 
         <View
             android:id="@+id/hDiv1"
-            android:layout_width="699dp"
-            android:layout_height="16dp"
+            android:layout_width="708dp"
+            android:layout_height="15dp"
             android:background="#000000"
             android:fadingEdge="none"
             android:fadingEdgeLength="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.504"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.146" />
+            app:layout_constraintVertical_bias="0.111" />
 
         <View
             android:id="@+id/hDiv1"
-            android:layout_width="699dp"
-            android:layout_height="16dp"
+            android:layout_width="713dp"
+            android:layout_height="5dp"
             android:background="#000000"
             android:fadingEdge="none"
             android:fadingEdgeLength="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintHorizontal_bias="0.505"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.335" />
+            app:layout_constraintVertical_bias="0.392" />
 
-        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
-            android:id="@+id/TeleAmpMissed_EB"
-            android:layout_width="212dp"
-            android:layout_height="89dp"
-            app:backGroundColor="#ff6e00"
+        <View
+            android:id="@+id/hDiv1"
+            android:layout_width="713dp"
+            android:layout_height="5dp"
+            android:background="#000000"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.113"
+            app:layout_constraintHorizontal_bias="0.505"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.191"
-            app:textSize="50sp"
-            tools:textColor="@color/button_no">
+            app:layout_constraintVertical_bias="0.214" />
 
-        </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+        <View
+            android:id="@+id/hDiv1"
+            android:layout_width="713dp"
+            android:layout_height="5dp"
+            android:background="#000000"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.3" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="151dp"
-            android:layout_height="59dp"
+            android:layout_height="67dp"
             android:text="Speaker"
             android:textColor="#000000"
             android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.499"
+            app:layout_constraintHorizontal_bias="0.522"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/guideline2"
-            app:layout_constraintVertical_bias="0.236" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.244" />
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="96dp"
-            android:layout_height="68dp"
+            android:layout_width="88dp"
+            android:layout_height="67dp"
             android:text="Amp"
             android:textColor="#000000"
             android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/guideline2"
-            app:layout_constraintVertical_bias="0.149" />
-
-        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
-            android:id="@+id/TeleSpeakerMissed_EB"
-            android:layout_width="215dp"
-            android:layout_height="85dp"
-            app:backGroundColor="#ff6e00"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.114"
+            app:layout_constraintHorizontal_bias="0.523"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.275"
-            app:textSize="50dp"
-            tools:textColor="@color/button_no">
-
-        </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
-
-        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
-            android:id="@+id/TeleAmpScore_EB"
-            android:layout_width="215dp"
-            android:layout_height="85dp"
-            app:backGroundColor="#ff6e00"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.902"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.193"
-            app:textSize="50sp"
-            tools:textColor="@color/button_no" />
+            app:layout_constraintVertical_bias="0.337" />
 
         <TextView
             android:id="@+id/teleOp_TV"
-            android:layout_width="200dp"
+            android:layout_width="261dp"
             android:layout_height="74dp"
             android:fontFamily="@font/bolt_regular"
             android:gravity="center"
             android:text="Other"
             android:textColor="#000"
-            android:textSize="55sp"
+            android:textSize="72sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintHorizontal_bias="0.493"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.39" />
+            app:layout_constraintVertical_bias="0.463" />
+
+        <View
+            android:id="@+id/hDiv1"
+            android:layout_width="708dp"
+            android:layout_height="15dp"
+            android:background="#000000"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.52" />
 
         <android.support.constraint.Guideline
             android:id="@+id/guideline2"
@@ -274,13 +339,6 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintGuide_begin="56dp" />
-
-        <android.support.constraint.Guideline
-            android:id="@+id/guideline2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintGuide_end="1224dp" />
 
 
         <android.support.constraint.Barrier

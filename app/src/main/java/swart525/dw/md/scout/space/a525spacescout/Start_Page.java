@@ -17,11 +17,11 @@ public class Start_Page extends AppCompatActivity {
         //Below to dotted line defines the needed button and are used to bring you to data collection start page
         Button Start_Collection_Open = (Button) findViewById(R.id.Start_Collection_Open_B); //Defines button for later use
         Start_Collection_Open.setOnClickListener(new View.OnClickListener() { //Makes onclick listener for button
+            //Below are all the variables that need to be reset back to "False" or "0" after each form is filled out
             @Override
             public void onClick(View v) {
 
                 Data_Collection_Page_1.NoShow = "False";
-
                 data_Collection_sandstorm.AutoAmpAttempt = "0";
                 data_Collection_sandstorm.AutoAmpScore = "0";
                 data_Collection_sandstorm.AutoSpeakerAttempt = "0";
@@ -35,6 +35,7 @@ public class Start_Page extends AppCompatActivity {
                 data_collection_end_game.ScoredTrap = "False";
                 data_collection_end_game.AttemptedTrap = "False";
                 data_collection_end_game.AttemptedHang = "False";
+                data_collection_end_game.Parked = "False";
                 data_collection_end_game.NoneHang = "False";
                 data_collection_end_game.NoneTrap = "False";
                 data_collection_TeleOP.TeleAmpScore = "0";
