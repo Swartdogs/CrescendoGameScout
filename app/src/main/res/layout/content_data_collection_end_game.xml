@@ -104,27 +104,27 @@
 
     <RadioGroup
         android:id="@+id/End_HangPark_RG"
-        android:layout_width="331dp"
-        android:layout_height="376dp"
+        android:layout_width="463dp"
+        android:layout_height="397dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.373"
+        app:layout_constraintHorizontal_bias="0.531"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.255">
+        app:layout_constraintVertical_bias="0.27">
 
         <RadioButton
             android:id="@+id/End_SoloHang_RB"
-            android:layout_width="338dp"
+            android:layout_width="485dp"
             android:layout_height="76dp"
-            android:text="Solo Stage"
+            android:text="Solo/Initiates Harmony"
             android:textSize="40sp" />
 
         <RadioButton
             android:id="@+id/End_HarmonyHang_RB"
-            android:layout_width="367dp"
+            android:layout_width="match_parent"
             android:layout_height="74dp"
-            android:text="Second on Chain"
+            android:text="Completes Harmony"
             android:textSize="40sp" />
 
         <RadioButton
@@ -151,15 +151,15 @@
 
     <View
         android:id="@+id/divider22"
-        android:layout_width="403dp"
-        android:layout_height="374dp"
+        android:layout_width="486dp"
+        android:layout_height="377dp"
         android:background="?android:attr/listDivider"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.385"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.254" />
+        app:layout_constraintVertical_bias="0.265" />
 
     <TextView
         android:id="@+id/textView12"
