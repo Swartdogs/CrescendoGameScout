@@ -41,4 +41,5 @@
     <string name="title_activity_delete__data">Delete_Data</string>
     <string name="title_activity_actual__submit">Actual_Submit</string>
     <string name="title_activity_delete__page">Delete_Page</string>
+    <string name="Override_Teamnum_B">Override Match #</string>
 </resources>

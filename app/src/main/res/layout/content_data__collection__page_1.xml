@@ -7,29 +7,6 @@
     android:background="#A5A5A5"
     tools:context=".Data_Collection_Page_1">
 
-    <EditText
-        android:id="@+id/Team_Num_txt"
-        android:layout_width="303dp"
-        android:layout_height="92dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:ems="10"
-        android:focusable="true"
-        android:gravity="center_horizontal|center_vertical"
-        android:hint="@string/team"
-        android:importantForAutofill="no"
-        android:inputType="number"
-        android:selectAllOnFocus="true"
-        android:textColor="#000"
-        android:textCursorDrawable="@color/colorText"
-        android:textSize="50sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.29" />
-
     <TextView
         android:id="@+id/textView24"
         android:layout_width="568dp"
@@ -39,17 +16,17 @@
         android:paddingTop="0dp"
         android:text="@string/robot_name"
         android:textColor="@color/colorLabel"
-        android:textSize="72sp"
+        android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.095" />
+        app:layout_constraintVertical_bias="0.056" />
 
     <Button
         android:id="@+id/Cancel_Collection_B"
-        android:layout_width="128dp"
-        android:layout_height="60dp"
+        android:layout_width="147dp"
+        android:layout_height="72dp"
         android:text="@string/cancel"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -59,24 +36,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.986" />
 
-    <EditText
-        android:id="@+id/Match_Num_Txt"
-        android:layout_width="280dp"
-        android:layout_height="64dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:ems="10"
-        android:focusable="true"
-        android:hint="@string/match"
-        android:importantForAutofill="no"
-        android:inputType="number"
-        android:textColor="#000"
-        android:textSize="35sp"
+    <Button
+        android:id="@+id/Override_Teamnum_B"
+        android:layout_width="148dp"
+        android:layout_height="70dp"
+        android:text="@string/Override_Teamnum_B"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.023"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.434" />
+        app:layout_constraintVertical_bias="0.926" />
 
     <TextView
         android:id="@+id/textView4"
@@ -90,10 +61,31 @@
         android:textSize="45sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.375" />
+        app:layout_constraintVertical_bias="0.183" />
+
+    <EditText
+        android:id="@+id/Match_Num_txt"
+        android:layout_width="286dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:focusable="true"
+        android:gravity="center"
+        android:hint="@string/match"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textColor="#000"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.241" />
 
     <TextView
         android:id="@+id/textView25"
@@ -109,24 +101,21 @@
         app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.227" />
+        app:layout_constraintVertical_bias="0.356" />
 
-    <EditText
-        android:id="@+id/Init_Txt"
-        android:layout_width="280dp"
-        android:layout_height="64dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:ems="10"
-        android:hint="Initials"
-        android:inputType="textPersonName"
-        android:textColor="#000"
-        android:textSize="35sp"
+    <TextView
+        android:id="@+id/TeamNumTB"
+        android:layout_width="275dp"
+        android:layout_height="74dp"
+        android:text="Team #"
+        android:textAlignment="center"
+        android:textSize="45sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.587" />
+        app:layout_constraintVertical_bias="0.418" />
 
     <TextView
         android:id="@+id/Initials"
@@ -140,9 +129,41 @@
         android:textSize="45sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.526" />
+        app:layout_constraintVertical_bias="0.531" />
+
+    <EditText
+        android:id="@+id/Init_Txt"
+        android:layout_width="257dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Initials"
+        android:inputType="textPersonName"
+        android:textColor="#000"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592" />
+
+    <CheckBox
+        android:id="@+id/No_Show_CB"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text=" No Show"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682" />
 
     <Button
         android:id="@+id/Start_Collection"
@@ -155,22 +176,27 @@
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.805" />
 
-    <CheckBox
-        android:id="@+id/No_Show_CB"
-        android:layout_width="300dp"
-        android:layout_height="60dp"
-        android:text=" No Show"
-        android:textSize="40sp"
+    <EditText
+        android:id="@+id/Team_Num_txt"
+        android:layout_width="286dp"
+        android:layout_height="78dp"
+        android:maxLength="5"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="45sp"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.676" />
+        app:layout_constraintVertical_bias="0.419" />
 
 
 </android.support.constraint.ConstraintLayout>
