@@ -54,7 +54,7 @@ public class Data_Collection_Page_1 extends AppCompatActivity {
         setContentView(R.layout.activity_data__collection__page_1);
 
         //Sets up comparison numbers
-        final int Compare_Match_Num = 94; //Match must be less than 150
+        final int Compare_Match_Num = 80; //Match must be less than 150
         final int Compare_Team_Num = 1; //Team must be greater than 1
 
         //Defines text boxes for Match/Team Number
@@ -86,100 +86,91 @@ public class Data_Collection_Page_1 extends AppCompatActivity {
             }
         });
         MatchSchedule = new ArrayList<>();
-        MatchSchedule.add("8770");
-        MatchSchedule.add("525");
-        MatchSchedule.add("5690");
-        MatchSchedule.add("9092");
-        MatchSchedule.add("167");
-        MatchSchedule.add("5914");
-        MatchSchedule.add("167");
-        MatchSchedule.add("2526");
-        MatchSchedule.add("753`");
-        MatchSchedule.add("4859");
-        MatchSchedule.add("4329");
-        MatchSchedule.add("4624");
-        MatchSchedule.add("9061");
-        MatchSchedule.add("6419");
-        MatchSchedule.add("9082");
-        MatchSchedule.add("5006");
-        MatchSchedule.add("3277");
-        MatchSchedule.add("2526");
-        MatchSchedule.add("1625");
-        MatchSchedule.add("2847");
-        MatchSchedule.add("525");
-        MatchSchedule.add("8824");
-        MatchSchedule.add("8770");
-        MatchSchedule.add("9082");
-        MatchSchedule.add("6420");
-        MatchSchedule.add("4674");
-        MatchSchedule.add("5006");
-        MatchSchedule.add("5914");
-        MatchSchedule.add("171");
+        MatchSchedule.add("6706");
         MatchSchedule.add("8737");
-        MatchSchedule.add("7848");
-        MatchSchedule.add("4674");
-        MatchSchedule.add("5690");
-        MatchSchedule.add("8821");
-        MatchSchedule.add("8824");
-        MatchSchedule.add("1785");
-        MatchSchedule.add("8024");
-        MatchSchedule.add("7048");
-        MatchSchedule.add("3058");
-        MatchSchedule.add("171");
-        MatchSchedule.add("5275");
-        MatchSchedule.add("4646");
-        MatchSchedule.add("9061");
-        MatchSchedule.add("2667");
-        MatchSchedule.add("7531");
-        MatchSchedule.add("4859");
         MatchSchedule.add("5935");
-        MatchSchedule.add("8770");
-        MatchSchedule.add("8737");
-        MatchSchedule.add("5041");
-        MatchSchedule.add("5006");
-        MatchSchedule.add("7531");
-        MatchSchedule.add("5935");
-        MatchSchedule.add("2957");
-        MatchSchedule.add("2040");
-        MatchSchedule.add("8822");
         MatchSchedule.add("8766");
+        MatchSchedule.add("6217");
+        MatchSchedule.add("167");
+        MatchSchedule.add("1625");
+        MatchSchedule.add("4859");
+        MatchSchedule.add("8822");
+        MatchSchedule.add("9570");
+        MatchSchedule.add("4624");
+        MatchSchedule.add("9543");
+        MatchSchedule.add("7541");
+        MatchSchedule.add("1625");
+        MatchSchedule.add("967");
+        MatchSchedule.add("8744");
         MatchSchedule.add("6420");
+        MatchSchedule.add("7848");
+        MatchSchedule.add("9543");
+        MatchSchedule.add("6706");
+        MatchSchedule.add("2526");
+        MatchSchedule.add("7309");
+        MatchSchedule.add("5041");
+        MatchSchedule.add("1785");
+        MatchSchedule.add("4728");
+        MatchSchedule.add("5576");
+        MatchSchedule.add("7541");
+        MatchSchedule.add("7848");
+        MatchSchedule.add("967");
         MatchSchedule.add("3928");
-        MatchSchedule.add("5125");
-        MatchSchedule.add("9092");
+        MatchSchedule.add("4143");
         MatchSchedule.add("8298");
         MatchSchedule.add("8822");
+        MatchSchedule.add("9639");
+        MatchSchedule.add("5275");
+        MatchSchedule.add("9570");
+        MatchSchedule.add("4607");
+        MatchSchedule.add("1785");
+        MatchSchedule.add("9639");
+        MatchSchedule.add("9508");
+        MatchSchedule.add("2654");
+        MatchSchedule.add("6420");
+        MatchSchedule.add("9579");
         MatchSchedule.add("2847");
-        MatchSchedule.add("4329");
-        MatchSchedule.add("5914");
-        MatchSchedule.add("2040");
-        MatchSchedule.add("6424");
-        MatchSchedule.add("8822");
-        MatchSchedule.add("3102");
-        MatchSchedule.add("967");
-        MatchSchedule.add("6217");
-        MatchSchedule.add("7309");
-        MatchSchedule.add("7541");
-        MatchSchedule.add("6455");
-        MatchSchedule.add("5041");
-        MatchSchedule.add("4624");
-        MatchSchedule.add("5837");
-        MatchSchedule.add("7848");
-        MatchSchedule.add("2526");
-        MatchSchedule.add("2846");
-        MatchSchedule.add("967");
-        MatchSchedule.add("8766");
-        MatchSchedule.add("6732");
-        MatchSchedule.add("4329");
         MatchSchedule.add("6419");
-        MatchSchedule.add("2264");
-        MatchSchedule.add("3058");
-        MatchSchedule.add("5125");
-        MatchSchedule.add("4096");
-        MatchSchedule.add("2846");
+        MatchSchedule.add("8766");
+        MatchSchedule.add("4607");
+        MatchSchedule.add("4728");
         MatchSchedule.add("6217");
-        MatchSchedule.add("4859");
+        MatchSchedule.add("9061");
+        MatchSchedule.add("6455");
+        MatchSchedule.add("6805");
+        MatchSchedule.add("167");
+        MatchSchedule.add("6424");
+        MatchSchedule.add("7531");
+        MatchSchedule.add("8821");
+        MatchSchedule.add("4624");
+        MatchSchedule.add("2654");
+        MatchSchedule.add("5041");
+        MatchSchedule.add("1625");
+        MatchSchedule.add("9639");
         MatchSchedule.add("5837");
+        MatchSchedule.add("5935");
+        MatchSchedule.add("4646");
+        MatchSchedule.add("8766");
+        MatchSchedule.add("3723");
+        MatchSchedule.add("8821");
+        MatchSchedule.add("5041");
+        MatchSchedule.add("4260");
+        MatchSchedule.add("1156");
+        MatchSchedule.add("4655");
+        MatchSchedule.add("8744");
+        MatchSchedule.add("8824");
+        MatchSchedule.add("9508");
+        MatchSchedule.add("4260");
+        MatchSchedule.add("525");
+        MatchSchedule.add("7541");
+        MatchSchedule.add("9092");
+        MatchSchedule.add("7021");
+        MatchSchedule.add("7531");
+
+
+
+
+
         Match_Num_txt.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
