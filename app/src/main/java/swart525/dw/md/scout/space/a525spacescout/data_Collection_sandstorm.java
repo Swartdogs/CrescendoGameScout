@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 import android.widget.Button;
 //import android.widget.CheckBox;
 import android.widget.TextView;
@@ -41,12 +40,12 @@ public class data_Collection_sandstorm extends AppCompatActivity {
         //Buttons for Coral
         final Button autoCoralL4Plus = findViewById(R.id.AutoCoralL4Plus_GB);
         final Button autoCoralL4Minus = findViewById(R.id.AutoCoralL4Minus_GB);
-        final Button autoCoralL3Plus = findViewById(R.id.AutoCoralL3Plus_GB);
-        final Button autoCoralL3Minus = findViewById(R.id.AutoCoralL3Minus_GB);
-        final Button autoCoralL2Plus = findViewById(R.id.AutoCoralL2Plus_GB);
-        final Button autoCoralL2Minus = findViewById(R.id.AutoCoralL2Minus_GB);
+        final Button autoCoralL3Plus = findViewById(R.id.AutoCyclesPlus_GB);
+        final Button autoCoralL3Minus = findViewById(R.id.AutoCyclesMinus_GB);
+        final Button autoCoralL2Plus = findViewById(R.id.Outpost_GB);
+        final Button autoCoralL2Minus = findViewById(R.id.Depot_GB);
         final Button autoCoralL1Plus = findViewById(R.id.AutoCoralL1Plus_GB);
-        final Button autoCoralL1Minus = findViewById(R.id.AutoCoralL1Minus_GB);
+        final Button autoCoralL1Minus = findViewById(R.id.NeutralZone_GB);
 
         final Button autoMovedB = findViewById(R.id.autoMovedFromStart_B);
         autoMovedB.setTag("D7D7D7D5");
@@ -62,7 +61,7 @@ public class data_Collection_sandstorm extends AppCompatActivity {
         Button To_TeleOp = findViewById(R.id.To_Teleop);
 
         TextView autoL4Text = findViewById(R.id.AutoCoralL4Scored_TV);
-        TextView autoL3Text = findViewById(R.id.AutoCoralL3Scored_TV);
+        TextView autoL3Text = findViewById(R.id.AutoCyclesScored_TV);
         TextView autoL2Text = findViewById(R.id.AutoCoralL2Scored_TV);
         TextView autoL1Text = findViewById(R.id.AutoCoralL1Scored_TV);
         TextView autoProcessedText = findViewById(R.id.autoAlgaeScored_TV);
