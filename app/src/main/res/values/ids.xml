@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="autoMovedFromStart_B" type="id" />
+    <item name="autoKnockedOff_B" type="id" />
+    <item name="autoAlgaePlus_GB4" type="id" />
+    <item name="autoAlgaeMinus_GB4" type="id" />
+    <item name="AutoCoralL1Plus_GB" type="id" />
+    <item name="AutoCoralL4Minus_GB" type="id" />
+    <item name="AutoCoralL4Plus_GB" type="id" />
+    <item name="AutoCoralL4Scored_TV" type="id" />
+    <item name="AutoCoralL2Scored_TV" type="id" />
+    <item name="AutoCoralL1Scored_TV" type="id" />
+    <item name="autoAlgaeScored_TV" type="id" />
+</resources>
