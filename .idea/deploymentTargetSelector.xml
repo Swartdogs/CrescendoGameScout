@@ -3,11 +3,11 @@
   <component name="deploymentTargetSelector">
     <selectionStates>
       <SelectionState runConfigName="app">
-        <option name="selectionMode" value="DIALOG" />
-        <DropdownSelection timestamp="2026-01-22T02:59:27.452417800Z">
+        <option name="selectionMode" value="DROPDOWN" />
+        <DropdownSelection timestamp="2026-01-28T00:36:22.421398900Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\Student\.android\avd\Lenovo_TB-X104F_API_27.avd" />
+              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\Student\.android\avd\10.1_WXGA_Tablet_API_27.avd" />
             </handle>
           </Target>
         </DropdownSelection>
